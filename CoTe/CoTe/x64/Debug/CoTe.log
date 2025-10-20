@@ -1,0 +1,3 @@
+﻿  Source1.cpp
+C:\Users\Heetae\source\repos\Studying_Cote\CoTe\CoTe\Source1.cpp(26,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CoTe.vcxproj -> C:\Users\Heetae\source\repos\Studying_Cote\CoTe\x64\Debug\CoTe.exe

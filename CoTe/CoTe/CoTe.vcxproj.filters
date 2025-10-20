@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\기초문제">
+      <UniqueIdentifier>{374c2969-149c-42af-8855-9eadb33edd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\동적계획법">
+      <UniqueIdentifier>{2485c52e-ee82-471a-a62d-47de5be785eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\검색">
+      <UniqueIdentifier>{293b62f8-67e4-47ee-8b30-ae7b9390d522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\컨테이너오퍼레이터">
+      <UniqueIdentifier>{48f059f5-b7b7-48a8-b5de-d67b476b64a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0_떼기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="n번째_원소까지.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="rny_string.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="x_사이의_개수.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="공배수.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="공백으로_구분하기_2.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="더_크게_합치기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="두_수의_연산값_비교하기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="뒤에서_5등_위로.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 앞의 n 글자.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열_곱하기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열_바꿔서_찾기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열_정수의_합.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="배열에서_문자열_대소문자_변환하기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="접두사인지_확인하기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="홀짝_구하기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="택배_상자_꺼내기.cpp">
+      <Filter>Source Files\기초문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2__완전범죄.cpp">
+      <Filter>Source Files\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>Source Files\검색</Filter>
+    </ClCompile>
+    <ClCompile Include="partition_point.cpp">
+      <Filter>Source Files\검색</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered_map.cpp">
+      <Filter>Source Files\컨테이너오퍼레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files\컨테이너오퍼레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>Source Files\컨테이너오퍼레이터</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
