@@ -131,6 +131,13 @@
     <ClCompile Include="04.필수문법_2_이터레이터.cpp" />
     <ClCompile Include="04.필수문법_3_벡터_셋_맵.cpp" />
     <ClCompile Include="04.필수문법.추가_1_공백구분sstream.cpp" />
+    <ClCompile Include="04.필수문법_4_algorithm.cpp" />
+    <ClCompile Include="05.배열.실습_1_배열_정렬하기.cpp" />
+    <ClCompile Include="05.배열.실습_2_배열_제어하기.cpp" />
+    <ClCompile Include="05.배열_배열_기본_다루기.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="실습정리.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

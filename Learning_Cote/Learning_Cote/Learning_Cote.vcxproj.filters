@@ -11,6 +11,12 @@
     <Filter Include="Source Files\04. 필수문법\추가">
       <UniqueIdentifier>{9adc5fc6-2bef-4585-aee6-8d0fb2de4f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\05.베열">
+      <UniqueIdentifier>{62ff63f6-c7ca-494d-ada8-13a47becca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.베열\실습">
+      <UniqueIdentifier>{0ae925f9-8c99-4257-9140-f09e46c9b1ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp">
@@ -25,5 +31,22 @@
     <ClCompile Include="04.필수문법.추가_1_공백구분sstream.cpp">
       <Filter>Source Files\04. 필수문법\추가</Filter>
     </ClCompile>
+    <ClCompile Include="04.필수문법_4_algorithm.cpp">
+      <Filter>Source Files\04. 필수문법</Filter>
+    </ClCompile>
+    <ClCompile Include="05.배열.실습_1_배열_정렬하기.cpp">
+      <Filter>Source Files\05.베열\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="05.배열.실습_2_배열_제어하기.cpp">
+      <Filter>Source Files\05.베열\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="05.배열_배열_기본_다루기.cpp">
+      <Filter>Source Files\05.베열</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="실습정리.txt">
+      <Filter>Source Files\05.베열\실습</Filter>
+    </Text>
   </ItemGroup>
 </Project>
