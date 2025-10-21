@@ -1,0 +1,4 @@
+﻿  백준 - 5430 AC.cpp
+C:\Users\Heetae\source\repos\Cote_OtherSites\Cote_OtherSites\백준 - 5430 AC.cpp(16,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Heetae\source\repos\Cote_OtherSites\Cote_OtherSites\백준 - 5430 AC.cpp(93,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Cote_OtherSites.vcxproj -> C:\Users\Heetae\source\repos\Cote_OtherSites\x64\Debug\Cote_OtherSites.exe

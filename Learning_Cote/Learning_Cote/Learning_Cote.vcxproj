@@ -129,7 +129,8 @@
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp" />
     <ClCompile Include="04.필수문법_2_이터레이터.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="04.필수문법_3_벡터_셋_맵.cpp" />
+    <ClCompile Include="04.필수문법.추가_1_공백구분sstream.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

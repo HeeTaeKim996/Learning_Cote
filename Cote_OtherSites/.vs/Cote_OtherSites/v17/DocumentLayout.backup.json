@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{417AA21A-8240-4C7C-B617-5DEA01E254A3}|Cote_OtherSites\\Cote_OtherSites.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{417AA21A-8240-4C7C-B617-5DEA01E254A3}|Cote_OtherSites\\Cote_OtherSites.vcxproj|solutionrelative:Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{417AA21A-8240-4C7C-B617-5DEA01E254A3}|Cote_OtherSites\\Cote_OtherSites.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{417AA21A-8240-4C7C-B617-5DEA01E254A3}|Cote_OtherSites\\Cote_OtherSites.vcxproj|solutionrelative:Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uBC31\uC900 - 5430 AC.cpp",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp",
+              "RelativeDocumentMoniker": "Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp",
+              "RelativeToolTip": "Cote_OtherSites\\\uBC31\uC900 - 5430 AC.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-21T00:14:14.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp",
+              "RelativeDocumentMoniker": "Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Cote_OtherSites\\Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp",
+              "RelativeToolTip": "Cote_OtherSites\\\uBC31\uC900 - 1764 \uB4E3\uBCF4\uC7A1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-20T23:56:13.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

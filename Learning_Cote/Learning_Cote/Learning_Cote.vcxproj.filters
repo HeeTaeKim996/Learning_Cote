@@ -8,6 +8,9 @@
     <Filter Include="Source Files\04. 필수문법">
       <UniqueIdentifier>{55e2980c-e529-495b-9ff1-7798eee64a16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\04. 필수문법\추가">
+      <UniqueIdentifier>{9adc5fc6-2bef-4585-aee6-8d0fb2de4f3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp">
@@ -16,8 +19,11 @@
     <ClCompile Include="04.필수문법_2_이터레이터.cpp">
       <Filter>Source Files\04. 필수문법</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="04.필수문법_3_벡터_셋_맵.cpp">
       <Filter>Source Files\04. 필수문법</Filter>
+    </ClCompile>
+    <ClCompile Include="04.필수문법.추가_1_공백구분sstream.cpp">
+      <Filter>Source Files\04. 필수문법\추가</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

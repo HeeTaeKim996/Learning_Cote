@@ -1,3 +1,5 @@
-﻿  Source.cpp
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(10,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  04.필수문법_3_벡터_셋_맵.cpp
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\04.필수문법_3_벡터_셋_맵.cpp(15,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\04.필수문법_3_벡터_셋_맵.cpp(134,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\04.필수문법_3_벡터_셋_맵.cpp(137,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Learning_Cote.vcxproj -> C:\Users\Heetae\source\repos\Cote\Learning_Cote\x64\Debug\Learning_Cote.exe
