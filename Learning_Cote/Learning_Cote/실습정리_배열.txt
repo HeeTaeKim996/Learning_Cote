@@ -1,0 +1,10 @@
+﻿
+○ 교재 문제
+05.배열.실습_1_배열_정렬하기			: 가장 기본적인 sort 사용 예제
+
+05.배열.실습_2_배열_제어하기			: vec.erase + unique 를 연계하는 예제. 
+
+05.배열.실습_3_두_수를_뽑아서_더하기	: set + vecAlgorithm 활용 예제
+
+○ 프로그래머스
+ - 방문길이		: https://school.programmers.co.kr/learn/courses/30/lessons/49994	(lv2)	- 문제가 딱히 좋지 않고, 배열 사용한 것도 없음

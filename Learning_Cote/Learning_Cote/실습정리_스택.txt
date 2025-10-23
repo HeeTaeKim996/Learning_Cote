@@ -1,0 +1,11 @@
+﻿○ 교제 문제
+ - 06.스택.실습_1_괄호_짝_맞추기
+ - 06.스택_실습_2_10진수를_2진수로_변환하기
+
+
+ ○ 프로그래머스
+  - 괄호 회전하기		-	lv2		-	https://school.programmers.co.kr/learn/courses/30/lessons/76502
+  - 짝지어 제거하기	-	Lv2		-	https://school.programmers.co.kr/learn/courses/30/lessons/12973
+  - 주식 가격		-	Lv2		-	https://school.programmers.co.kr/learn/courses/30/lessons/42584
+  - 크레인 인형 뽑기	-	Lv2		-	https://school.programmers.co.kr/learn/courses/30/lessons/64061
+  - 표 편집			-	Lv3		-	https://school.programmers.co.kr/learn/courses/30/lessons/81303

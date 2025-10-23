@@ -177,6 +177,16 @@ void main()
 				printf("%d : %s\n", pair.first, pair.second.c_str());
 			}
 		}
+
+
+		{ // begin() 등 it로 접근
+
+			map<string, int> myMap = { {"Apple", 1}, {"Banana", 2}, {"Cherry", 3} };
+
+			printf("%s : %d", myMap.begin()->first.c_str(), myMap.begin()->second);
+		}
+
+
 		printf("\n\n\n");
 	}
 
