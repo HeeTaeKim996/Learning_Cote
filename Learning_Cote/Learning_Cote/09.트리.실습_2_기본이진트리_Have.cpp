@@ -59,10 +59,10 @@ struct Tree
 	{
 		Node& node = nodes[index];
 		if (node.value == val) return true;
-		if (node.left != -1) if (Have(node.left, val)) return true;
-		if (node.right != -1) if (Have(node.right, val)) return true;
+		if (node.left != -1 && Have(node.left, val)) return true;
+		if (node.right != -1 && Have(node.right, val)) return true;
 
-		if (index == rootIndex) return false;
+		return false;
 	}
 
 

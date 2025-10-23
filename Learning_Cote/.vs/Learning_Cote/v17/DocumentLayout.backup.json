@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|solutionrelative:Learning_Cote\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|solutionrelative:Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|solutionrelative:Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|solutionrelative:Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\999.\uAE30\uD0C0_1_Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -103,12 +103,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\Source.cpp",
-              "RelativeDocumentMoniker": "Learning_Cote\\Source.cpp",
-              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\Source.cpp",
-              "RelativeToolTip": "Learning_Cote\\Source.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAEUAAAACAAAAAAAAAA==",
+              "Title": "09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp",
+              "RelativeDocumentMoniker": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp",
+              "RelativeToolTip": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_2_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Have.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-23T07:28:41.192Z",
               "EditorCaption": ""
@@ -116,15 +116,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp",
-              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp",
-              "RelativeDocumentMoniker": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp",
-              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp",
-              "RelativeToolTip": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Title": "09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp",
+              "RelativeDocumentMoniker": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\Cote\\Learning_Cote\\Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp",
+              "RelativeToolTip": "Learning_Cote\\09.\uD2B8\uB9AC.\uC2E4\uC2B5_1_\uAE30\uBCF8\uC774\uC9C4\uD2B8\uB9AC_Add.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-23T06:26:58.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T06:26:58.391Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "Learning_Cote\\999.\uAE30\uD0C0_1_Combination.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-23T03:43:15.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T03:43:15.435Z"
             },
             {
               "$type": "Document",

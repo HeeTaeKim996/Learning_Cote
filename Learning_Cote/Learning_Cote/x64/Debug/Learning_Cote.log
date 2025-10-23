@@ -1,6 +1,5 @@
-﻿  Source.cpp
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(39,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(49,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(76,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(66): warning C4715: 'Tree::Have': not all control paths return a value
+﻿  09.트리.실습_2_기본이진트리_Have.cpp
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(39,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(49,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(76,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Learning_Cote.vcxproj -> C:\Users\Heetae\source\repos\Cote\Learning_Cote\x64\Debug\Learning_Cote.exe
