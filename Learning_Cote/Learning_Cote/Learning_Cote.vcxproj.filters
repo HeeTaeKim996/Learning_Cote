@@ -50,6 +50,18 @@
     <Filter Include="Source Files\09.트리\실습">
       <UniqueIdentifier>{90c88ce9-ae85-40f5-a569-d56ac67dd3fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\10.집합">
+      <UniqueIdentifier>{6cef3cd2-f54b-484c-b9dd-c036b9c7cf33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11.그래프">
+      <UniqueIdentifier>{3f1bbb4f-e5ae-479f-86dd-acbf62a50aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11.그래프\기본">
+      <UniqueIdentifier>{52fc22e3-8df1-457c-bb9f-eb6df9d516b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11.그래프\알고리즘">
+      <UniqueIdentifier>{ff1d87eb-1833-45f1-a651-59532d41c357}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp">
@@ -109,6 +121,18 @@
     <ClCompile Include="09.트리.실습_2_기본이진트리_Have.cpp">
       <Filter>Source Files\09.트리\실습</Filter>
     </ClCompile>
+    <ClCompile Include="10.집합_집합개요코드.cpp">
+      <Filter>Source Files\10.집합</Filter>
+    </ClCompile>
+    <ClCompile Include="11.그래프.알고리즘_기본.cpp">
+      <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="11.그래프.알고리즘_다익스트라알고리즘.cpp">
+      <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="11.그래프.알고리즘_밸만포드알고리즘.cpp">
+      <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="실습정리_배열.txt">
@@ -116,6 +140,12 @@
     </Text>
     <Text Include="실습정리_스택.txt">
       <Filter>Source Files\06.스택\실습</Filter>
+    </Text>
+    <Text Include="트리_정리.txt">
+      <Filter>Source Files\09.트리</Filter>
+    </Text>
+    <Text Include="집합_정리.txt">
+      <Filter>Source Files\10.집합</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

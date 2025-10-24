@@ -1,0 +1,8 @@
+
+
+
+코드가 굉장히 재밌고, 유용하다.
+
+	- https://school.programmers.co.kr/learn/courses/30/lessons/42861
+
+	위 문제는 집합 알고리즘에 기반한, Kruskal 알고리즘 을 이해해야 풀 수 있는 문제다. Kruskal 알고리즘은 다양한 분야에서 쓰이는 활용도가 높은 알고리즘으로, 꼭 외워두자

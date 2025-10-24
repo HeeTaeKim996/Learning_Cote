@@ -1,5 +1,5 @@
-﻿  09.트리.실습_2_기본이진트리_Have.cpp
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(39,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(49,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(76,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  11.그래프.알고리즘_밸만포드알고리즘.cpp
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\11.그래프.알고리즘_밸만포드알고리즘.cpp(42,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\11.그래프.알고리즘_밸만포드알고리즘.cpp(86,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\11.그래프.알고리즘_밸만포드알고리즘.cpp(79): warning C4715: 'Graph::BellmanFord': not all control paths return a value
   Learning_Cote.vcxproj -> C:\Users\Heetae\source\repos\Cote\Learning_Cote\x64\Debug\Learning_Cote.exe
