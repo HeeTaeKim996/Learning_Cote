@@ -56,9 +56,6 @@
     <Filter Include="Source Files\11.그래프">
       <UniqueIdentifier>{3f1bbb4f-e5ae-479f-86dd-acbf62a50aa4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\11.그래프\기본">
-      <UniqueIdentifier>{52fc22e3-8df1-457c-bb9f-eb6df9d516b7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\11.그래프\알고리즘">
       <UniqueIdentifier>{ff1d87eb-1833-45f1-a651-59532d41c357}</UniqueIdentifier>
     </Filter>
@@ -131,6 +128,9 @@
       <Filter>Source Files\11.그래프\알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="11.그래프.알고리즘_밸만포드알고리즘.cpp">
+      <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="11.그래프.알고리즘_최단거리_Dfs.cpp">
       <Filter>Source Files\11.그래프\알고리즘</Filter>
     </ClCompile>
   </ItemGroup>

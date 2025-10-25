@@ -1,4 +1,4 @@
-#if 1
+#if 0
 #include <string>
 #include <vector>
 #include <map>
@@ -6,16 +6,21 @@
 
 using namespace std;
 
+// ※ nodes 는 벡터 고정으로 하자. 절대 map 쓰지 말자 [ 성능 낭비 + for(auto.. )할 때 손가락만 아픔 ]. 만약 찾는 node가 있다면, Initialize 때 멤버 로 따로 보관해두면 된다. 아래의 StartNode 예시처럼.
+
 struct Node
 {
 	Node(int InIndex) : index(InIndex) {}
 	int index = -1;
 	map<Node*, int> nexts;
+
+	int dist;
+	Node* prev;
 };
 
 struct Graph
 {
-	void Initialize(int n, vector<vector<int>>& edges)
+	void Initialize(int n, vector<vector<int>>& edges, int start)
 	{
 		nodes.resize(n, nullptr);
 
@@ -30,29 +35,34 @@ struct Graph
 
 			nodes[from]->nexts[nodes[to]] = cost;
 		}
+
+		startNode = nodes[start];
 	}
 
 	vector<int> BellmanFord(Node* start)
 	{
-		vector<int> prev(nodes.size(), -1); // 마찬가지로 코테에서는 필요 없음
-		vector<int> dist(nodes.size(), INT32_MAX);
+		for (Node* node : nodes)
+		{
+			node->dist = INT32_MAX;
+			node->prev = nullptr;
+		}
 
-		dist[start->index] = 0;
+		start->dist = 0;
 
 		int repTime = nodes.size() - 1; // 다익스트라랑 마찬가지로, n -1
 		while(repTime-- > 0)
 		{
 			for (Node* from : nodes)
 			{
-				if (dist[from->index] == INT32_MAX) continue;
+				if (from->dist == INT32_MAX) continue;
 
 				for (auto& [to, cost] : from->nexts)
 				{
-					int newDistance = dist[from->index] + cost;
-					if (newDistance < dist[to->index])
+					int newDistance = from->dist + cost;
+					if (newDistance < to->dist)
 					{
-						dist[to->index] = newDistance;
-						prev[to->index] = from->index;
+						to->dist = newDistance;
+						to->prev = from;
 					}
 				}
 			}
@@ -63,22 +73,22 @@ struct Graph
 		{
 			for (auto& [to, cost] : from->nexts)
 			{
-				int newDistance = dist[from->index] + cost;
-				if (newDistance < dist[to->index])
+				int newDistance = from->dist + cost;
+				if (newDistance < to->dist)
 				{
 					return vector<int>(1, -1);
 				}
 			}
 		}
 
-		for (int i : dist) printf("%2d ", i);
+		for (Node* node : nodes) printf("%2d ", node->dist);
 		printf("\n");
-		for (int i : prev) printf("%2d ", i);
-		printf("\n\n");
+		for (Node* node : nodes) printf("%2d ", node->prev != nullptr ? node->prev->index : -1);
+		printf("\n");
 
 	}
 
-
+	Node* startNode;
 	vector<Node*> nodes;
 };
 
@@ -105,8 +115,8 @@ void main()
 	auto Temp = [&](vector<vector<int>>& e, int n, int start)
 		{
 			Graph graph;
-			graph.Initialize(n, e);
-			graph.BellmanFord(graph.nodes[start]);
+			graph.Initialize(n, e, start);
+			graph.BellmanFord(graph.startNode);
 		};
 
 	Temp(e1, 5, 0);
