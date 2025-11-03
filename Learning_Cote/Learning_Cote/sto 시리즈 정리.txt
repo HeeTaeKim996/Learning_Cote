@@ -1,0 +1,11 @@
+
+
+
+stoi		int					
+stol		long				
+stoll		long long			
+stoul		unsigned long		
+stoull		unsigned long long	
+stof		float				
+stod		double				
+stold		long double			

@@ -157,9 +157,12 @@
     <ClCompile Include="12.백트래킹.실습_1_조합구하기.cpp" />
     <ClCompile Include="12.백트래킹.실습_2_스도쿠퍼즐.cpp" />
     <ClCompile Include="999.기타_2_CombinationWithRepetition.cpp" />
+    <ClCompile Include="04.필수문법_5_priority_queue.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="a.txt" />
+    <Text Include="12.백트래킹_정리.txt" />
+    <Text Include="13.정렬 정리.txt" />
+    <Text Include="sto 시리즈 정리.txt" />
     <Text Include="집합_정리.txt" />
     <Text Include="실습정리_배열.txt" />
     <Text Include="실습정리_스택.txt" />
