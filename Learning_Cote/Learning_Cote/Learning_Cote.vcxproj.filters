@@ -59,6 +59,12 @@
     <Filter Include="Source Files\11.그래프\알고리즘">
       <UniqueIdentifier>{ff1d87eb-1833-45f1-a651-59532d41c357}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\12.백트래킹">
+      <UniqueIdentifier>{da57e56e-0350-4f61-9b16-3600962ea26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\12.백트래킹\실습">
+      <UniqueIdentifier>{8fcfacb2-70ed-4962-a995-0fcac501938f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp">
@@ -109,9 +115,6 @@
     <ClCompile Include="07.큐.필수문법.cpp">
       <Filter>Source Files\07.큐\필수문법</Filter>
     </ClCompile>
-    <ClCompile Include="999.기타_1_Combination.cpp">
-      <Filter>Source Files\999.기타</Filter>
-    </ClCompile>
     <ClCompile Include="09.트리.실습_1_기본이진트리_Add.cpp">
       <Filter>Source Files\09.트리\실습</Filter>
     </ClCompile>
@@ -130,8 +133,23 @@
     <ClCompile Include="11.그래프.알고리즘_밸만포드알고리즘.cpp">
       <Filter>Source Files\11.그래프\알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="11.그래프.알고리즘_최단거리_Dfs.cpp">
+    <ClCompile Include="11.그래프.알고리즘_최단거리_Bfs.cpp">
       <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="11.그래프.알고리즘_최단거리_Bfs_다차원.cpp">
+      <Filter>Source Files\11.그래프\알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="12.백트래킹.실습_1_조합구하기.cpp">
+      <Filter>Source Files\12.백트래킹\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="12.백트래킹.실습_2_스도쿠퍼즐.cpp">
+      <Filter>Source Files\12.백트래킹\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="999.기타_1_Combination.cpp">
+      <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="999.기타_2_CombinationWithRepetition.cpp">
+      <Filter>Source Files\999.기타</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +164,9 @@
     </Text>
     <Text Include="집합_정리.txt">
       <Filter>Source Files\10.집합</Filter>
+    </Text>
+    <Text Include="a.txt">
+      <Filter>Source Files\12.백트래킹\실습</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

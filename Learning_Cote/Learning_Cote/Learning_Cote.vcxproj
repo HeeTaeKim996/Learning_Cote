@@ -152,9 +152,14 @@
     <ClCompile Include="11.그래프.알고리즘_기본.cpp" />
     <ClCompile Include="11.그래프.알고리즘_다익스트라알고리즘.cpp" />
     <ClCompile Include="11.그래프.알고리즘_밸만포드알고리즘.cpp" />
-    <ClCompile Include="11.그래프.알고리즘_최단거리_Dfs.cpp" />
+    <ClCompile Include="11.그래프.알고리즘_최단거리_Bfs.cpp" />
+    <ClCompile Include="11.그래프.알고리즘_최단거리_Bfs_다차원.cpp" />
+    <ClCompile Include="12.백트래킹.실습_1_조합구하기.cpp" />
+    <ClCompile Include="12.백트래킹.실습_2_스도쿠퍼즐.cpp" />
+    <ClCompile Include="999.기타_2_CombinationWithRepetition.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="a.txt" />
     <Text Include="집합_정리.txt" />
     <Text Include="실습정리_배열.txt" />
     <Text Include="실습정리_스택.txt" />

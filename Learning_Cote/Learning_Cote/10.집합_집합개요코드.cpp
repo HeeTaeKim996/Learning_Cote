@@ -33,23 +33,25 @@ struct Set
 		return node->parent;
 	}
 
-	void UnionSet(Node* x, Node* y)
+	void Union(Node* a, Node* b)
 	{
-		Node* root1 = Find(x);
-		Node* root2 = Find(y);
+		Node* rootA = Find(a);
+		Node* rootB = Find(b);
 
-		if (root1->rank > root2->rank)
+		if (rootA == rootB) return;
+
+		if (rootA->rank > rootB->rank)
 		{
-			root2->parent = root1;
+			rootB->parent = rootA;
 		}
-		else if (root1->rank < root2->rank)
+		else if (rootA->rank < rootB->rank)
 		{
-			root1->parent = root2;
+			rootA->parent = rootB;
 		}
 		else
 		{
-			root2->parent = root1;
-			root1->rank++;
+			rootB->parent = rootA;
+			rootA->rank++;
 		}
 	}
 
@@ -73,11 +75,11 @@ void main()
 	Node* ret = set.Find(set.nodes[7]);
 	printf("%d \n", ret->value);
 
-	set.UnionSet(set.nodes[7], set.nodes[8]);
+	set.Union(set.nodes[7], set.nodes[8]);
 	Node* ret2 = set.Find(set.nodes[8]);
 	printf("%d \n", ret2->value);
 
-	set.UnionSet(set.nodes[8], set.nodes[9]);
+	set.Union(set.nodes[8], set.nodes[9]);
 	Node* ret3 = set.Find(set.nodes[9]);
 	printf("%d \n", ret3->value);
 }
