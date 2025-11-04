@@ -38,7 +38,7 @@ void main()
 	}
 
 
-	{ // Sort + pred
+	{ // Sort + Compare
 
 		struct Point
 		{
@@ -46,7 +46,7 @@ void main()
 			int x, y;
 		};
 		
-		::function<bool(const Point&, const Point&)> Compare = [](const Point& a, const Point& b) // ※ 정렬 기준. 첫번째가 두번째보다 작다면, true. 크거나 같다면, false
+		auto Compare = [](const Point& a, const Point& b) // ※ 정렬 기준. 첫번째가 두번째보다 작다면, true. 크거나 같다면, false
 			{
 				if (a.x == b.x)
 				{
@@ -85,6 +85,32 @@ void main()
 	}
 
 
+	{ // min, max		->		 실수 a, b, c.. 가 주어졌을 때 { a, b, c .. } 형태로 입력하여 min, max 를 구함
+
+		printf("Min : %d \n", std::min({ 1, 3, 5}));
+		printf("Max : %d \n", std::max({ 1, 3, 5 }));
+	}
+
+
+	{ // max_element, min_element		->		벡터로 실수들이 주어졌을 때, 벡터를 통째로 넣어 비교할 때 사용
+
+		vector<int> v = { 1, 3, 5, 7, 2, 4, 6 };
+
+		auto maxIt = max_element(v.begin(), v.end());
+		auto minIt = min_element(v.begin(), v.end());
+
+		printf("%d, %d \n", *minIt, *maxIt);
+	}
+
+	{ // swap
+		vector<int> v = { 1, 2, 3, 4 };
+		std::swap(v[1], v[3]);
+		printf("swap : ");
+		for (int i : v) printf("%d ", i);
+		printf("\n");
+	}
+
+
 	{ // unique
 
 		vector<int> v = { 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5 };
@@ -111,15 +137,7 @@ void main()
 		printf("%d\n", binary_search(v.begin(), v.end(), 7));
 	}
 
-	{ // max_element, min_element
 
-		vector<int> v = { 1, 3, 5, 7, 2, 4, 6 };
-
-		auto maxIt = max_element(v.begin(), v.end());
-		auto minIt = min_element(v.begin(), v.end());
-
-		printf("%d, %d \n", *minIt, *maxIt);
-	}
 
 }
 
