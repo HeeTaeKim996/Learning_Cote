@@ -210,6 +210,9 @@
     <Text Include="14.시뮬레이션_정리.txt">
       <Filter>Source Files\14.시뮬레이션</Filter>
     </Text>
+    <Text Include="15.DP_정리.txt">
+      <Filter>Source Files\15.DP</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="실습_큐.text">
