@@ -1,2 +1,3 @@
-﻿  999.기타_3_nCr_nHr.cpp
+﻿  Source.cpp
+C:\Users\Heetae\source\repos\Cote\Learning_Cote\Learning_Cote\Source.cpp(88,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Learning_Cote.vcxproj -> C:\Users\Heetae\source\repos\Cote\Learning_Cote\x64\Debug\Learning_Cote.exe

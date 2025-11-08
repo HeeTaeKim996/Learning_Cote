@@ -184,6 +184,12 @@
     <ClCompile Include="999.기타_3_nCr_nHr.cpp">
       <Filter>Source Files\999.기타</Filter>
     </ClCompile>
+    <ClCompile Include="999.기타_4_IsPrime.cpp">
+      <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="09.트리.필요알고리즘.cpp">
+      <Filter>Source Files\09.트리</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="실습정리_배열.txt">
