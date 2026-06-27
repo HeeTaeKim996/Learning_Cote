@@ -3,6 +3,7 @@
 #include <vector>
 #include <queue>
 #include <functional>
+#include <algorithm>
 
 using namespace std;
 
@@ -23,14 +24,6 @@ struct Node
 	int num;
 };
 
-struct Comparator
-{
-	bool operator()(const Node& a, const Node& b)
-	{
-		if (a.name == b.name) return a.num > b.num;
-		return a.name > b.name;
-	}
-};
 
 
 
@@ -47,8 +40,13 @@ int main()
 	Node node5("heetae", 29);
 	Node node6("heetae", 3);
 	
+	auto Compare = [](Node a, Node b) -> bool
+		{
+			if (a.name == b.name) return a.num < b.num;
+			return a.name < b.name;
+		};
 
-	priority_queue<Node, vector<Node>, Comparator> pq;
+	priority_queue<Node, vector<Node>, bool(*)(Node, Node)> pq(Compare);
 	pq.push(node3);
 	pq.push(node1);
 	pq.push(node5);

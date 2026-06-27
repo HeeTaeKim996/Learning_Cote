@@ -80,6 +80,9 @@
     <Filter Include="Source Files\15.DP\실습">
       <UniqueIdentifier>{c383c0c2-ddb9-4976-9f2c-b46db3475c94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\999.기타\Temp">
+      <UniqueIdentifier>{605891a5-1d6f-499a-9642-cb2275eeb04e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04.필수문법_1_문자열_기본문법.cpp">
@@ -189,6 +192,15 @@
     </ClCompile>
     <ClCompile Include="09.트리.필요알고리즘.cpp">
       <Filter>Source Files\09.트리</Filter>
+    </ClCompile>
+    <ClCompile Include="999.기타_5_ImosMethod.cpp">
+      <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="999.기타_6_엑셀컬럼넘버링.cpp">
+      <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="999.기타_7_Calander.cpp">
+      <Filter>Source Files\999.기타</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
