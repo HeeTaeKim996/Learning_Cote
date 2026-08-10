@@ -1,43 +1,47 @@
+
+#----------------
+#    Algorithm
+#----------------
 # Prerequisites
-*.d
+Algorithm/**/*.d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+Algorithm/**/*.slo
+Algorithm/**/*.lo
+Algorithm/**/*.o
+Algorithm/**/*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+Algorithm/**/*.gch
+Algorithm/**/*.pch
 
 # Linker files
-*.ilk
+Algorithm/**/*.ilk
 
 # Debugger Files
-*.pdb
+Algorithm/**/*.pdb
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+Algorithm/**/*.so
+Algorithm/**/*.dylib
+Algorithm/**/*.dll
 
 # Fortran module files
-*.mod
-*.smod
+Algorithm/**/*.mod
+Algorithm/**/*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+Algorithm/**/*.lai
+Algorithm/**/*.la
+Algorithm/**/*.a
+Algorithm/**/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
+Algorithm/**/*.exe
+Algorithm/**/*.out
+Algorithm/**/*.app
 
 # debug information files
-*.dwo
+Algorithm/**/*.dwo
 
-*.ipch
+Algorithm/**/*.ipch
