@@ -1,0 +1,82 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Learning_Cote.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  04.필수문법_1_문자열_기본문법.cpp
+  04.필수문법_2_이터레이터.cpp
+  04.필수문법_3_벡터_셋_맵.cpp
+  04.필수문법.추가_1_공백구분sstream.cpp
+  04.필수문법_4_algorithm.cpp
+  05.배열.실습_1_배열_정렬하기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법_1_문자열_기본문법.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법_2_이터레이터.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법_3_벡터_셋_맵.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법.추가_1_공백구분sstream.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법_4_algorithm.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열.실습_1_배열_정렬하기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열.실습_2_배열_제어하기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열.실습_2_배열_제어하기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열_배열알고리즘_기본_다루기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열_배열알고리즘_기본_다루기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열.실습_3_두_수를_뽑아서_더하기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열.실습_3_두_수를_뽑아서_더하기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열.실습_4_모의고사.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열.실습_4_모의고사.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열.실습_5_행렬의_곱셈.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\05.배열.실습_5_행렬의_곱셈.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  05.배열.실습_5_실패율.cpp
+  06.스택.실습_1_괄호_짝_맞추기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\06.스택.실습_1_괄호_짝_맞추기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  06.스택_실습_2_10진수를_2진수로_변환하기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\06.스택_실습_2_10진수를_2진수로_변환하기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  07.큐.실습_1_요세푸스문제.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\07.큐.실습_1_요세푸스문제.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  07.큐.필수문법.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\07.큐.필수문법.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_1_Combination.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_1_Combination.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  09.트리.실습_1_기본이진트리_Add.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\09.트리.실습_1_기본이진트리_Add.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  09.트리.실습_2_기본이진트리_Have.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\09.트리.실습_2_기본이진트리_Have.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  10.집합_집합개요코드.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\10.집합_집합개요코드.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  Generating Code...
+  Compiling...
+  11.그래프.알고리즘_기본.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\11.그래프.알고리즘_기본.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  11.그래프.알고리즘_다익스트라알고리즘.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\11.그래프.알고리즘_다익스트라알고리즘.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  11.그래프.알고리즘_밸만포드알고리즘.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\11.그래프.알고리즘_밸만포드알고리즘.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  11.그래프.알고리즘_최단거리_Bfs.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\11.그래프.알고리즘_최단거리_Bfs.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  11.그래프.알고리즘_최단거리_Bfs_다차원.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\11.그래프.알고리즘_최단거리_Bfs_다차원.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  12.백트래킹.실습_1_조합구하기.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\12.백트래킹.실습_1_조합구하기.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  12.백트래킹.실습_2_스도쿠퍼즐.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\12.백트래킹.실습_2_스도쿠퍼즐.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_2_CombinationWithRepetition.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_2_CombinationWithRepetition.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  04.필수문법_5_priority_queue.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\04.필수문법_5_priority_queue.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  14.시뮬레이션.실습_1_행렬회전.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\14.시뮬레이션.실습_1_행렬회전.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  14.시뮬레이션.실습_2_행렬곱_행렬전치.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\14.시뮬레이션.실습_2_행렬곱_행렬전치.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  14.시뮬레이션.실습_3_달팽이수열.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\14.시뮬레이션.실습_3_달팽이수열.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  15.DP.실습_1_조약돌문제.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\15.DP.실습_1_조약돌문제.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_3_nCr_nHr.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_3_nCr_nHr.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_4_IsPrime.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_4_IsPrime.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  09.트리.필요알고리즘.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\09.트리.필요알고리즘.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_5_ImosMethod.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_5_ImosMethod.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_6_엑셀컬럼넘버링.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_6_엑셀컬럼넘버링.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  999.기타_7_Calander.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Learning_Cote\999.기타_7_Calander.cpp(263,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Learning_Cote.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\x64\Debug\Algorithm.exe
