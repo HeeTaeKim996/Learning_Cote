@@ -45,3 +45,40 @@ Algorithm/**/*.app
 Algorithm/**/*.dwo
 
 Algorithm/**/*.ipch
+
+
+
+
+#----------------------
+#    DesignPattern
+#----------------------
+### IntelliJ IDEA ###
+DesignPattern/out/
+!DesignPattern/**/src/main/**/out/
+!DesignPattern/**/src/test/**/out/
+DesignPattern/.kotlin
+
+### Eclipse ###
+DesignPattern/.apt_generated
+DesignPattern/.classpath
+DesignPattern/.factorypath
+DesignPattern/.project
+DesignPattern/.settings
+DesignPattern/.springBeans
+DesignPattern/.sts4-cache
+DesignPattern/bin/
+!DesignPattern/**/src/main/**/bin/
+!DesignPattern/**/src/test/**/bin/
+
+### NetBeans ###
+DesignPattern/nbproject/private/
+DesignPattern/nbbuild/
+DesignPattern/dist/
+DesignPattern/nbdist/
+DesignPattern/.nb-gradle/
+
+### VS Code ###
+DesignPattern/.vscode/
+
+### Mac OS ###
+DesignPattern/.DS_Store
