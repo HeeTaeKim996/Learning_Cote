@@ -36,16 +36,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractFactory.executor": "Run",
     "Application.Adapter.executor": "Run",
     "Application.Bridge.executor": "Run",
     "Application.Facade.executor": "Run",
     "Application.FactoryMethod.executor": "Run",
+    "Application.Flyweight.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Mediator.executor": "Run",
+    "Application.Observer.executor": "Run",
     "Application.Proxy.executor": "Run",
     "Application.Singleton.executor": "Run",
     "Application.State.executor": "Run",
     "Application.Strategy.executor": "Run",
     "Application.TemplateMethod.executor": "Run",
+    "Application.Visitor.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
