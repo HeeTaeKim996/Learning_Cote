@@ -1,4 +1,4 @@
-package Behaviour;
+package Structual;
 
 import java.io.IOException;
 import java.nio.file.Files;

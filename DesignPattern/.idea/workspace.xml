@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94105101-64de-408e-aad7-cc54485f6c9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behaviour/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behaviour/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behaviour/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behaviour/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Behaviour/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structual/Facade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,8 @@
   "keyToString": {
     "Application.Facade.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Singleton.executor": "Run",
+    "Application.State.executor": "Run",
     "Application.Strategy.executor": "Run",
     "Application.TemplateMethod.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
