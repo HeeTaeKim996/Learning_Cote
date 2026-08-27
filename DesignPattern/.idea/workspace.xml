@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94105101-64de-408e-aad7-cc54485f6c9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Behaviour/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Behaviour/Visitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,8 @@
     "Application.AbstractFactory.executor": "Run",
     "Application.Adapter.executor": "Run",
     "Application.Bridge.executor": "Run",
+    "Application.Builder.executor": "Run",
+    "Application.Decorator.executor": "Run",
     "Application.Facade.executor": "Run",
     "Application.FactoryMethod.executor": "Run",
     "Application.Flyweight.executor": "Run",
