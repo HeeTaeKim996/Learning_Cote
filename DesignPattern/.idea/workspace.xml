@@ -42,6 +42,7 @@
     "Application.Builder.executor": "Run",
     "Application.ChainOfResponsibility.executor": "Run",
     "Application.Command.executor": "Run",
+    "Application.Composite.executor": "Run",
     "Application.Decorator.executor": "Run",
     "Application.Facade.executor": "Run",
     "Application.FactoryMethod.executor": "Run",
