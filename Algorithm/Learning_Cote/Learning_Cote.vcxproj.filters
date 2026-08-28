@@ -202,6 +202,9 @@
     <ClCompile Include="999.기타_7_Calander.cpp">
       <Filter>Source Files\999.기타</Filter>
     </ClCompile>
+    <ClCompile Include="999.기타_8_ArithemeticInterpreter.cpp">
+      <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="실습정리_배열.txt">

@@ -1,0 +1,6 @@
+﻿  OpBinaryNode.cpp
+  Parser.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\Parser.cpp(205,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  ArithemeticInterpreter.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\x64\Debug\ArithemeticInterpreter.exe
