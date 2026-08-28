@@ -74,7 +74,7 @@ private:
 	Node* calcQuot();
 
 private:
-	void checkFloatAndSet(NumNode* resultNode, float floatVal);
+	void checkFloatAndSet(NumNode* resultNode, FLOAT floatVal);
 
 
 public:

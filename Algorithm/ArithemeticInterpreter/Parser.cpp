@@ -167,11 +167,20 @@ void Parser::TryMakeNumNode()
 	NumNode* numNode;
 	if (numContainer.isFloat)
 	{
+#ifdef AIM_64
+		numNode = new NumNode(stod(numContainer.val));
+#elif defined AIM_32
 		numNode = new NumNode(stof(numContainer.val));
+#endif
+
 	}
 	else
 	{
+#ifdef AIM_64
+		numNode = new NumNode(stoll(numContainer.val));
+#elif defined AIM_32
 		numNode = new NumNode(stoi(numContainer.val));
+#endif
 	}
 
 	insertNode(numNode);

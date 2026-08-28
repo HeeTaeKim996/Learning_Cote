@@ -7,11 +7,11 @@ class NumNode : public Node
 public:
 	NumNode() : super(NodeType::num)
 	{}
-	NumNode(int InIntVal) : super(NodeType::num) 
+	NumNode(INT InIntVal) : super(NodeType::num) 
 	{
 		intVal = InIntVal;
 	}
-	NumNode(float inFloatVAl) : super(NodeType::num)
+	NumNode(FLOAT inFloatVAl) : super(NodeType::num)
 	{
 		isFloat = true;
 		floatVal = inFloatVAl;
@@ -39,8 +39,8 @@ public:
 	bool isFloat = false;
 	union
 	{
-		int intVal;
-		float floatVal;
+		INT intVal;
+		FLOAT floatVal;
 	};
 
 };

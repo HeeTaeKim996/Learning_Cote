@@ -169,7 +169,6 @@
     <ClCompile Include="999.기타_5_ImosMethod.cpp" />
     <ClCompile Include="999.기타_6_엑셀컬럼넘버링.cpp" />
     <ClCompile Include="999.기타_7_Calander.cpp" />
-    <ClCompile Include="999.기타_8_ArithemeticInterpreter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="12.백트래킹_정리.txt" />

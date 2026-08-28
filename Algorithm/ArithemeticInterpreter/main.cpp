@@ -12,7 +12,7 @@ void test1(OpBinaryType type, float v1, float v2)
 
 	if (v1 - static_cast<int>(v1) == 0)
 	{
-		num1 = new NumNode(static_cast<int>(v1));
+		num1 = new NumNode(static_cast<INT>(v1));
 	}
 	else
 	{
@@ -21,7 +21,7 @@ void test1(OpBinaryType type, float v1, float v2)
 
 	if (v2 - static_cast<int>(v2) == 0)
 	{
-		num2 = new NumNode(static_cast<int>(v2));
+		num2 = new NumNode(static_cast<INT>(v2));
 	}
 	else
 	{

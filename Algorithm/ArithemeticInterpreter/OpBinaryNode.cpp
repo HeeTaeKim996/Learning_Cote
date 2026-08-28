@@ -89,7 +89,7 @@ Node* OpBinaryNode::calcPlus()
 	NumNode* resultNode = new NumNode();
 	if (leftNum->isFloat || rightNum->isFloat)
 	{
-		float floatVal
+		FLOAT floatVal
 			= (leftNum->isFloat ?  leftNum->floatVal : leftNum->intVal)
 			+ (rightNum->isFloat ?  rightNum->floatVal : rightNum->intVal);
 
@@ -111,7 +111,7 @@ Node* OpBinaryNode::calcMinus()
 	NumNode* resultNode = new NumNode();
 	if (leftNum->isFloat || rightNum->isFloat)
 	{
-		float floatVal
+		FLOAT floatVal
 			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
 			- (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
 
@@ -133,7 +133,7 @@ Node* OpBinaryNode::calcMul()
 	NumNode* resultNode = new NumNode();
 	if (leftNum->isFloat || rightNum->isFloat)
 	{
-		float floatVal
+		FLOAT floatVal
 			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
 			* (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
 
@@ -157,7 +157,7 @@ Node* OpBinaryNode::calcDiv()
 	{
 		if (rightNum->floatVal == 0.f) return  nullptr;
 
-		float floatVal
+		FLOAT floatVal
 			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
 			/ (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
 
@@ -181,8 +181,8 @@ Node* OpBinaryNode::calcRes()
 	NumNode* resultNode = new NumNode();
 	if (leftNum->isFloat || rightNum->isFloat)
 	{
-		int leftInt = leftNum->isFloat ? static_cast<int>(leftNum->floatVal) : leftNum->intVal;
-		int rightInt = rightNum->isFloat ? static_cast<int>(rightNum->floatVal) : rightNum->intVal;
+		INT leftInt = leftNum->isFloat ? static_cast<INT>(leftNum->floatVal) : leftNum->intVal;
+		INT rightInt = rightNum->isFloat ? static_cast<INT>(rightNum->floatVal) : rightNum->intVal;
 
 		resultNode->isFloat = false;
 		resultNode->intVal = leftInt % rightInt;
@@ -204,12 +204,12 @@ Node* OpBinaryNode::calcQuot()
 	NumNode* resultNode = new NumNode();
 	if (leftNum->isFloat || rightNum->isFloat)
 	{
-		float floatVal
+		FLOAT floatVal
 			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
 			/ (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
 
 		resultNode->isFloat = false;
-		resultNode->intVal = static_cast<int>(floatVal);
+		resultNode->intVal = static_cast<INT>(floatVal);
 	}
 	else
 	{
@@ -219,12 +219,12 @@ Node* OpBinaryNode::calcQuot()
 	return resultNode;
 }
 
-void OpBinaryNode::checkFloatAndSet(NumNode* resultNode, float floatVal)
+void OpBinaryNode::checkFloatAndSet(NumNode* resultNode, FLOAT floatVal)
 {
 	if (floor(floatVal) == floatVal)
 	{
 		resultNode->isFloat = false;
-		resultNode->intVal = static_cast<int>(floatVal);
+		resultNode->intVal = static_cast<INT>(floatVal);
 	}
 	else
 	{
