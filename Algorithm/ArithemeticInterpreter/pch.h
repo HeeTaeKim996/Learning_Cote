@@ -16,3 +16,9 @@ using namespace std;
 #define INT long
 #define FLOAT float
 #endif
+
+#include "MemoryTracker.h"
+
+
+
+#define DEBUG_SPEAK

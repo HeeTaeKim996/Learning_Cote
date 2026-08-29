@@ -23,6 +23,7 @@ public:
 	{
 		switch (prior->nodeType)
 		{
+		case NodeType::root:
 		case NodeType::op:
 			return true;
 

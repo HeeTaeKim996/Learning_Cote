@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\MemoryTracker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\MemoryTracker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\Parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\NumNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\OpBinaryNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\OpBinaryNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\NumNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\RootNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\RootNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\NumNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\Parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\RootNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\RootNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\OpNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|solutionrelative:ArithemeticInterpreter\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7041A66-8898-4487-9729-48B3AC2BF212}|ArithemeticInterpreter\\ArithemeticInterpreter.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\CORECRT_MATH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -252,38 +252,77 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 175,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 185,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MemoryTracker.h",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\MemoryTracker.h",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\MemoryTracker.h",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\MemoryTracker.h",
+              "RelativeToolTip": "ArithemeticInterpreter\\MemoryTracker.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-29T00:25:31.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\pch.h",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.h",
               "RelativeToolTip": "ArithemeticInterpreter\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-08-28T09:40:28.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "NumNode.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\NumNode.h",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.h",
               "RelativeToolTip": "ArithemeticInterpreter\\NumNode.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-08-28T23:11:14.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Parser.h",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\Parser.h",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h",
+              "RelativeToolTip": "ArithemeticInterpreter\\Parser.h",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-28T09:40:24.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OpBinaryNode.h",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.h",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpBinaryNode.h",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.h",
+              "RelativeToolTip": "ArithemeticInterpreter\\OpBinaryNode.h",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-28T08:08:50.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "OpNode.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpNode.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpNode.h",
@@ -296,40 +335,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Parser.h",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\Parser.h",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.h",
-              "RelativeToolTip": "ArithemeticInterpreter\\Parser.h",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowD0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-28T09:40:24.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OpBinaryNode.h",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.h",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpBinaryNode.h",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.h",
-              "RelativeToolTip": "ArithemeticInterpreter\\OpBinaryNode.h",
-              "ViewState": "AgIAACgAAAAAAAAAAAASwEwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-28T08:08:50.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "RootNode.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\RootNode.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\RootNode.h",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\RootNode.h",
               "RelativeToolTip": "ArithemeticInterpreter\\RootNode.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-28T11:05:32.422Z"
+              "WhenOpened": "2026-08-28T11:05:32.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -850,22 +865,9 @@
           ]
         },
         {
-          "DockedWidth": 225,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 215,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OpBinaryNode.cpp",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.cpp",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpBinaryNode.cpp",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.cpp",
-              "RelativeToolTip": "ArithemeticInterpreter\\OpBinaryNode.cpp",
-              "ViewState": "AgIAALsAAAAAAAAAAAAowNMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-28T09:15:27.579Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -874,35 +876,9 @@
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\Parser.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Parser.cpp",
               "RelativeToolTip": "ArithemeticInterpreter\\Parser.cpp",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAMwK8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAowAkBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-28T09:40:27.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NumNode.cpp",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.cpp",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\NumNode.cpp",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.cpp",
-              "RelativeToolTip": "ArithemeticInterpreter\\NumNode.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-28T07:57:52.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "pch.cpp",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.cpp",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\pch.cpp",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.cpp",
-              "RelativeToolTip": "ArithemeticInterpreter\\pch.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-28T07:42:00.128Z",
+              "WhenOpened": "2026-08-29T00:11:23.699Z",
               "EditorCaption": ""
             },
             {
@@ -919,13 +895,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\main.cpp",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\main.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\main.cpp",
               "RelativeToolTip": "ArithemeticInterpreter\\main.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAE8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-28T07:37:49.631Z",
               "EditorCaption": ""
@@ -933,6 +909,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "NumNode.cpp",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.cpp",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\NumNode.cpp",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\NumNode.cpp",
+              "RelativeToolTip": "ArithemeticInterpreter\\NumNode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-28T07:57:52.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OpBinaryNode.cpp",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.cpp",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpBinaryNode.cpp",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpBinaryNode.cpp",
+              "RelativeToolTip": "ArithemeticInterpreter\\OpBinaryNode.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-28T09:15:27.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.cpp",
+              "RelativeDocumentMoniker": "ArithemeticInterpreter\\pch.cpp",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\pch.cpp",
+              "RelativeToolTip": "ArithemeticInterpreter\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-28T07:42:00.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "OpNode.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\OpNode.cpp",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\OpNode.cpp",
@@ -941,18 +954,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-28T08:04:40.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Node.h",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Node.h",
-              "RelativeDocumentMoniker": "ArithemeticInterpreter\\Node.h",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\Node.h",
-              "RelativeToolTip": "ArithemeticInterpreter\\Node.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-28T10:56:49.616Z"
             },
             {
               "$type": "Document",

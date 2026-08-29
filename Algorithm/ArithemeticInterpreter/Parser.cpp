@@ -4,27 +4,41 @@
 #include "OpBinaryNode.h"
 #include <typeinfo>
 
+
+
 bool Parser::parse(string query)
 {
 	reset();
 
 	if (makeNodes(query) == false)
 	{
-		onFailed();
+		clearNodes();
 		return false;
 	}
 
+#ifdef DEBUG_SPEAK
 	printf("\n\n\nBefore calculated : \n");
 	test1();
+#endif
 
 	if (calculate() == false)
 	{
-		onFailed();
+		clearNodes();
 		return false;
 	}
 
+#ifdef DEBUG_SPEAK
 	printf("\nAfter calculated : \n");
 	test1();
+#endif
+	
+
+	// 이전에 결과를 String 등으로 준비 필요
+	clearNodes();
+
+#ifdef DEBUG_SPEAK
+	MemoryTracker::printState();
+#endif
 
 	return true;
 }
@@ -76,18 +90,23 @@ bool Parser::makeNodes(string query)
 		}
 	}
 
-	TryMakeNumNode();
+	if (TryMakeNumNode() == false) return false;
 
 	return true;
 }
 
-void Parser::insertNode(Node* newNode)
+bool Parser::insertNode(Node* newNode)
 {
+	// 여기서 인접 노드끼리 유효 검수
+	if (newNode->checkPriorIsValid(currNode) == false) return false;
+
 	newNode->right = currNode->right;
 	newNode->left = currNode;
 	currNode->right = newNode;
 
 	currNode = newNode;
+
+	return true;
 }
 
 bool Parser::addressNum(char c)
@@ -117,35 +136,35 @@ bool Parser::addressNum(char c)
 
 bool Parser::addressOpBinary(char c)
 {
-	TryMakeNumNode();
+	if (TryMakeNumNode() == false) return false;
 
 	OpBinaryNode* opNode = nullptr;
 
 	switch (c)
 	{
 	case '+':
-		opNode = new OpBinaryNode(OpBinaryType::plus);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::plus, AddClac::instance());
 		break;
 	case '-':
-		opNode = new OpBinaryNode(OpBinaryType::minus);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::minus, SubClac::instance());
 		break;
 	case '*':
-		opNode = new OpBinaryNode(OpBinaryType::mul);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::mul, MulClac::instance());
 		break;
 	case '/':
-		opNode = new OpBinaryNode(OpBinaryType::divv);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::divv, DivClac::instance());
 		break;
 	case '%':
-		opNode = new OpBinaryNode(OpBinaryType::res);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::res, ResClac::instance());
 		break;
 	case 'q':
-		opNode = new OpBinaryNode(OpBinaryType::quot);
+		opNode = TrackNew<OpBinaryNode>(OpBinaryType::quot, QuotClac::instance());
 		break;
 	}
 
 	if (opNode == nullptr) return false;
 
-	insertNode(opNode);
+	if (insertNode(opNode) == false) return false;
 
 	opNode->debugLevel = level; // 디버그 용도
 
@@ -160,37 +179,39 @@ bool Parser::addressOpBinary(char c)
 	return true;
 }
 
-void Parser::TryMakeNumNode()
+bool Parser::TryMakeNumNode()
 {
-	if (numContainer.on == false) return;
+	if (numContainer.on == false) return true; // 정상 종료!
 
 	NumNode* numNode;
 	if (numContainer.isFloat)
 	{
 #ifdef AIM_64
-		numNode = new NumNode(stod(numContainer.val));
+		numNode = TrackNew<NumNode>(stod(numContainer.val));
 #elif defined AIM_32
-		numNode = new NumNode(stof(numContainer.val));
+		numNode = TrackNew<NumNode>(stof(numContainer.val));
 #endif
 
 	}
 	else
 	{
 #ifdef AIM_64
-		numNode = new NumNode(stoll(numContainer.val));
+		numNode = TrackNew<NumNode>(stoll(numContainer.val));
 #elif defined AIM_32
-		numNode = new NumNode(stoi(numContainer.val));
+		numNode = TrackNew<NumNode>(stoi(numContainer.val));
 #endif
 	}
 
-	insertNode(numNode);
+	if (insertNode(numNode) == false) return false; // 실패 종료
 
 	numContainer.reset();
+
+	return true; // 정상 종료
 }
 
 bool Parser::addressParentheses(char c)
 {
-	TryMakeNumNode();
+	if (TryMakeNumNode() == false) return false;
 
 	if (c == '(')
 	{
@@ -224,7 +245,7 @@ bool Parser::calculate()
 				Node* numNode = opNode->operate();
 				if (numNode == nullptr) return false;
 
-				delete(opNode); 
+				TrackDelete(opNode); 
 				// 여기서 최종 삭제한다. 
 				// linkedList 의 연결 처리는 operate 내부에서 이미 처리됨
 				
@@ -235,14 +256,14 @@ bool Parser::calculate()
 	return true;
 }
 
-void Parser::onFailed()
+void Parser::clearNodes()
 {
 	Node* currNode = rootNode->right;
 	while (currNode != rootNode)
 	{
 		Node* dNode = currNode;
 		currNode = currNode->right;
-		delete(dNode);
+		TrackDelete(dNode);
 	}
 }
 

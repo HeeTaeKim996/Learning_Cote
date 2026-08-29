@@ -3,6 +3,8 @@
 #include "NumNode.h"
 #include <cmath>
 
+
+
 void OpBinaryNode::speakWhoYouAre()
 {
 	char c = '\0';
@@ -43,27 +45,13 @@ Node* OpBinaryNode::operate()
 
 	Node* retNode = nullptr;
 
-	switch (opBinaryType)
+	if (calcFunc != nullptr)
 	{
-	case OpBinaryType::plus:
-		retNode = calcPlus();
-		break;
-	case OpBinaryType::minus:
-		retNode = calcMinus();
-		break;
-	case OpBinaryType::mul:
-		retNode = calcMul();
-		break;
-	case OpBinaryType::divv:
-		retNode = calcDiv();
-		break;
-	case OpBinaryType::res:
-		retNode = calcRes();
-		break;
-	case OpBinaryType::quot:
-		retNode = calcQuot();
-
+		retNode = calcFunc->calc(
+			static_cast<NumNode*>(left), 
+			static_cast<NumNode*>(right));
 	}
+	
 
 	if (retNode == nullptr) return nullptr; // ½ÇÆÐ½Ã, return nullptr
 
@@ -75,151 +63,29 @@ Node* OpBinaryNode::operate()
 	left->left->right = retNode;
 	right->right->left = retNode;
 
-	delete(left);
-	delete(right);
+	TrackDelete(left);
+	TrackDelete(right);
 	
 	return retNode;
 }
 
-Node* OpBinaryNode::calcPlus()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
-
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		FLOAT floatVal
-			= (leftNum->isFloat ?  leftNum->floatVal : leftNum->intVal)
-			+ (rightNum->isFloat ?  rightNum->floatVal : rightNum->intVal);
-
-		checkFloatAndSet(resultNode, floatVal);
-	}
-	else
-	{
-		resultNode->intVal = leftNum->intVal + rightNum->intVal;
-	}
-
-	return resultNode;
-}
-
-Node* OpBinaryNode::calcMinus()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
-	
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		FLOAT floatVal
-			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
-			- (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
-
-		checkFloatAndSet(resultNode, floatVal);
-	}
-	else
-	{
-		resultNode->intVal = leftNum->intVal - rightNum->intVal;
-	}
-
-	return resultNode;
-}
-
-Node* OpBinaryNode::calcMul()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
-
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		FLOAT floatVal
-			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
-			* (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
-
-		checkFloatAndSet(resultNode, floatVal);
-	}
-	else
-	{
-		resultNode->intVal = leftNum->intVal * rightNum->intVal;
-	}
-
-	return resultNode;
-}
-
-Node* OpBinaryNode::calcDiv()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
-
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		if (rightNum->floatVal == 0.f) return  nullptr;
-
-		FLOAT floatVal
-			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
-			/ (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
-
-		checkFloatAndSet(resultNode, floatVal);
-	}
-	else
-	{
-		if (rightNum->intVal == 0) return nullptr;
-
-		resultNode->intVal = leftNum->intVal / rightNum->intVal;
-	}
-
-	return resultNode;
-}
-
-Node* OpBinaryNode::calcRes()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
-
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		INT leftInt = leftNum->isFloat ? static_cast<INT>(leftNum->floatVal) : leftNum->intVal;
-		INT rightInt = rightNum->isFloat ? static_cast<INT>(rightNum->floatVal) : rightNum->intVal;
-
-		resultNode->isFloat = false;
-		resultNode->intVal = leftInt % rightInt;
-	}
-	else
-	{
-		resultNode->intVal = leftNum->intVal % rightNum->intVal;
-	}
 
 
-	return resultNode;
-}
 
-Node* OpBinaryNode::calcQuot()
-{
-	NumNode* leftNum = static_cast<NumNode*>(left);
-	NumNode* rightNum = static_cast<NumNode*>(right);
 
-	NumNode* resultNode = new NumNode();
-	if (leftNum->isFloat || rightNum->isFloat)
-	{
-		FLOAT floatVal
-			= (leftNum->isFloat ? leftNum->floatVal : leftNum->intVal)
-			/ (rightNum->isFloat ? rightNum->floatVal : rightNum->intVal);
 
-		resultNode->isFloat = false;
-		resultNode->intVal = static_cast<INT>(floatVal);
-	}
-	else
-	{
-		resultNode->intVal = leftNum->intVal / rightNum->intVal;
-	}
 
-	return resultNode;
-}
 
-void OpBinaryNode::checkFloatAndSet(NumNode* resultNode, FLOAT floatVal)
+
+
+
+
+
+
+/*---------------------------
+		OpBinaryCalc
+---------------------------*/
+void OpBinaryCalc::checkFloatAndSet(NumNode* resultNode, FLOAT floatVal)
 {
 	if (floor(floatVal) == floatVal)
 	{
@@ -231,4 +97,125 @@ void OpBinaryNode::checkFloatAndSet(NumNode* resultNode, FLOAT floatVal)
 		resultNode->isFloat = true;
 		resultNode->floatVal = floatVal;
 	}
+}
+
+Node* AddClac::calc(NumNode* left, NumNode* right)
+{
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		FLOAT floatVal
+			= (left->isFloat ? left->floatVal : left->intVal)
+			+ (right->isFloat ? right->floatVal : right->intVal);
+
+		checkFloatAndSet(resultNode, floatVal);
+	}
+	else
+	{
+		resultNode->intVal = left->intVal + right->intVal;
+	}
+
+	return resultNode;
+}
+
+Node* SubClac::calc(NumNode* left, NumNode* right)
+{
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		FLOAT floatVal
+			= (left->isFloat ? left->floatVal : left->intVal)
+			- (right->isFloat ? right->floatVal : right->intVal);
+
+		checkFloatAndSet(resultNode, floatVal);
+	}
+	else
+	{
+		resultNode->intVal = left->intVal - right->intVal;
+	}
+
+	return resultNode;
+}
+
+Node* MulClac::calc(NumNode* left, NumNode* right)
+{
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		FLOAT floatVal
+			= (left->isFloat ? left->floatVal : left->intVal)
+			* (right->isFloat ? right->floatVal : right->intVal);
+
+		checkFloatAndSet(resultNode, floatVal);
+	}
+	else
+	{
+		resultNode->intVal = left->intVal * right->intVal;
+	}
+
+	return resultNode;
+}
+
+Node* DivClac::calc(NumNode* left, NumNode* right)
+{
+
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		if (right->floatVal == 0.f) return  nullptr;
+
+		FLOAT floatVal
+			= (left->isFloat ? left->floatVal : left->intVal)
+			/ (right->isFloat ? right->floatVal : right->intVal);
+
+		checkFloatAndSet(resultNode, floatVal);
+	}
+	else
+	{
+		if (right->intVal == 0) return nullptr;
+
+		resultNode->intVal = left->intVal / right->intVal;
+	}
+
+	return resultNode;
+}
+
+Node* ResClac::calc(NumNode* left, NumNode* right)
+{
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		INT leftInt = left->isFloat ? static_cast<INT>(left->floatVal) : left->intVal;
+		INT rightInt = right->isFloat ? static_cast<INT>(right->floatVal) : right->intVal;
+
+		resultNode->isFloat = false;
+		resultNode->intVal = leftInt % rightInt;
+	}
+	else
+	{
+		resultNode->intVal = left->intVal % right->intVal;
+	}
+
+
+	return resultNode;
+}
+
+Node* QuotClac::calc(NumNode* left, NumNode* right)
+{
+	NumNode* resultNode = TrackNew<NumNode>();
+	if (left->isFloat || right->isFloat)
+	{
+		FLOAT floatVal
+			= (left->isFloat ? left->floatVal : left->intVal)
+			/ (right->isFloat ? right->floatVal : right->intVal);
+
+		resultNode->isFloat = false;
+		resultNode->intVal = static_cast<INT>(floatVal);
+	}
+	else
+	{
+		resultNode->intVal = left->intVal / right->intVal;
+	}
+
+	return resultNode;
 }

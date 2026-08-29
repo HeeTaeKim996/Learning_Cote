@@ -47,15 +47,15 @@ private:
 
 private:
 	bool makeNodes(string query);
-	void insertNode(Node* newNode);
+	bool insertNode(Node* newNode);
 	bool addressNum(char c);
 	bool addressOpBinary(char c);
-	void TryMakeNumNode();
+	bool TryMakeNumNode();
 	bool addressParentheses(char c);
 
 private:
 	bool calculate();
-	void onFailed();
+	void clearNodes();
 	
 
 public:
