@@ -50,6 +50,7 @@ struct Tree
 	{
 		Node*& node = FindEmpty(root, x);
 		node = new Node();
+
 		node->x = x;
 		node->value = value;
 	}
@@ -72,6 +73,7 @@ struct Tree
 	void PostOrder(Node* node)
 	{
 		if (node == nullptr) return;
+		
 		PostOrder(node->left);
 		PostOrder(node->right);
 		printf("%d, ", node->value);

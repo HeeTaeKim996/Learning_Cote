@@ -66,7 +66,7 @@ void main()
 			auto it = find(v.begin(), v.end(), 3);
 			if (it != v.end())
 			{
-				v.insert(it, 30); // 이렇게 특정 이터레이터 '엎에' 끼워넣기 가능
+				v.insert(it, 30); // 이렇게 특정 이터레이터 앞에 끼워넣기 가능
 			}
 			for (int i = 0; i < v.size(); i++) printf("%d  ", v[i]);
 		}
@@ -192,7 +192,8 @@ void main()
 
 
 
-	{ // 이부분은 생략해도 된다. unordered_set, unordered_map 인데, set, map 과 각각 문법은 동일하다. 정렬 기능이 빠졌기 때문에, 삽입 삭제에서 성능이 좋지만, 코테에서는 사용할 필요가 거의 없다 한다.
+	{ // 이부분은 생략해도 된다. unordered_set, unordered_map 인데, set, map 과 각각 문법은 동일하다. 
+	  // 정렬 기능이 빠졌기 때문에, 삽입/삭제/검색에 성능이 좋다
 
 		{ // unordered_set
 

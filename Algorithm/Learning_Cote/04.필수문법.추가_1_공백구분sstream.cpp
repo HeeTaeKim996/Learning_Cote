@@ -1,5 +1,3 @@
-
-
 #if 0
 
 #include <string>

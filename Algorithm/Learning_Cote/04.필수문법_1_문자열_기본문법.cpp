@@ -7,10 +7,10 @@ using namespace std;
 
 void main()
 {
-	printf("04.필수문법_1_문자열_기본문법\n\n");
+	cout << "04.필수문법_1_문자열_기본문법\n\n";
 
 
-	// 문자열 찾기
+	// 문자열 찾기 : str.find
 	{
 		string str = "Hello, C++ World!";
 
@@ -30,7 +30,7 @@ void main()
 
 
 
-	// 문자열 수정
+	// 문자열 수정 : str.replace
 	{
 		string str = "APPLE";
 		str += ", World!";
@@ -41,6 +41,16 @@ void main()
 
 		str.replace(0, 5, "Bye");
 		cout << str << endl;
+	}
+
+
+	{
+		string str = "Hello Harry";
+		string find = "Harry";
+		string rep = "Bori";
+		printf("%s -> %s\n", 
+			str.c_str(), str.replace(str.find(find),
+				find.length(), rep).c_str());
 	}
 }
 

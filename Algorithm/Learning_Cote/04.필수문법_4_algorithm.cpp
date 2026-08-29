@@ -45,8 +45,9 @@ void main()
 			Point(int InX, int InY) : x(InX), y(InY) {}
 			int x, y;
 		};
-		
-		auto Compare = [](const Point& a, const Point& b) // ※ 정렬 기준. 첫번째가 두번째보다 작다면, true. 크거나 같다면, false
+
+		// ※ 정렬 기준. 첫번째가 두번째보다 작다면, true. 크거나 같다면, false
+		auto Compare = [](const Point& a, const Point& b) -> bool 
 			{
 				if (a.x == b.x)
 				{
@@ -129,7 +130,7 @@ void main()
 		printf("\n\n");
 	}
 
-	{ // binary_search
+	{ // binary_search : 요소가 존재하면 1, 없으면 0 을 반환
 
 		vector<int> v = { 1, 2, 3, 4, 5 };
 

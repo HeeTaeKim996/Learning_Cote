@@ -47,9 +47,6 @@
     <Filter Include="Source Files\09.트리">
       <UniqueIdentifier>{720caac8-9ec8-4e2c-b263-e65a47693ff4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\09.트리\실습">
-      <UniqueIdentifier>{90c88ce9-ae85-40f5-a569-d56ac67dd3fe}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\10.집합">
       <UniqueIdentifier>{6cef3cd2-f54b-484c-b9dd-c036b9c7cf33}</UniqueIdentifier>
     </Filter>
@@ -133,15 +130,6 @@
     <ClCompile Include="07.큐.필수문법.cpp">
       <Filter>Source Files\07.큐\필수문법</Filter>
     </ClCompile>
-    <ClCompile Include="09.트리.실습_1_기본이진트리_Add.cpp">
-      <Filter>Source Files\09.트리\실습</Filter>
-    </ClCompile>
-    <ClCompile Include="09.트리.실습_2_기본이진트리_Have.cpp">
-      <Filter>Source Files\09.트리\실습</Filter>
-    </ClCompile>
-    <ClCompile Include="10.집합_집합개요코드.cpp">
-      <Filter>Source Files\10.집합</Filter>
-    </ClCompile>
     <ClCompile Include="11.그래프.알고리즘_기본.cpp">
       <Filter>Source Files\11.그래프\알고리즘</Filter>
     </ClCompile>
@@ -201,6 +189,15 @@
     </ClCompile>
     <ClCompile Include="999.기타_7_Calander.cpp">
       <Filter>Source Files\999.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10.2_Kruskal_Algorithm.cpp">
+      <Filter>Source Files\10.집합</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1_집합_집합개요코드.cpp">
+      <Filter>Source Files\10.집합</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

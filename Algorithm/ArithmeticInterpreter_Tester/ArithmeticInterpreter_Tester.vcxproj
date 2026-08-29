@@ -24,6 +24,7 @@
     <ProjectGuid>{fe8e2369-297f-4691-9c19-c8c2641dc48b}</ProjectGuid>
     <RootNamespace>ArithmeticInterpreterTester</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ArithmeticInterpreter_DLL_Tester</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

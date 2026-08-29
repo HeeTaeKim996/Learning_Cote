@@ -1,34 +1,7 @@
-﻿  pch.cpp
-  main.cpp
+﻿  main.cpp
 C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,36): warning C4251: 'Parser::operations': class 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>' needs to have dll-interface to be used by clients of class 'Parser'
   (compiling source file '/private/main.cpp')
       C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,2):
       see declaration of 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>'
   
-  MemoryTracker.cpp
-  Node.cpp
-  NumNode.cpp
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\private\NumNode.cpp(6,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
-  (compiling source file '/private/NumNode.cpp')
-      C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\private\NumNode.cpp(6,9):
-      consider using '%lld' in the format string
-      C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\private\NumNode.cpp(6,9):
-      consider using '%Id' in the format string
-      C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\private\NumNode.cpp(6,9):
-      consider using '%I64d' in the format string
-  
-  OpBinaryNode.cpp
-  OpNode.cpp
-  Parser.cpp
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,36): warning C4251: 'Parser::operations': class 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>' needs to have dll-interface to be used by clients of class 'Parser'
-  (compiling source file '/private/Parser.cpp')
-      C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,2):
-      see declaration of 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>'
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\private\Parser.cpp(235,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/private/Parser.cpp')
-  
-  RootNode.cpp
-  Generating Code...
-     Creating library C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\out\x64\Debug\ArithemeticInterpreter.lib and object C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\out\x64\Debug\ArithemeticInterpreter.exp
-  ArithemeticInterpreter.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\out\x64\Debug\ArithemeticInterpreter.dll
+  ArithemeticInterpreter.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\out\x64\Debug\ArithemeticInterpreter.exe

@@ -1,8 +1,10 @@
-﻿  stdafx.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ArithmeticInterpreter_Tester.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
   main.cpp
 C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,36): warning C4251: 'Parser::operations': class 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>' needs to have dll-interface to be used by clients of class 'Parser'
   (compiling source file '/main.cpp')
       C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,2):
       see declaration of 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>'
   
-  ArithmeticInterpreter_Tester.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithmeticInterpreter_Tester\out\x64\Debug\ArithmeticInterpreter_Tester.exe
+     Creating library C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithmeticInterpreter_Tester\out\x64\Debug\ArithmeticInterpreter_DLL_Tester.lib and object C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithmeticInterpreter_Tester\out\x64\Debug\ArithmeticInterpreter_DLL_Tester.exp
+  ArithmeticInterpreter_Tester.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithmeticInterpreter_Tester\out\x64\Debug\ArithmeticInterpreter_DLL_Tester.exe

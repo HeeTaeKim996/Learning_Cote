@@ -18,7 +18,7 @@ void main()
 		vector<int> vec = { 10, 20, 30, 40, 50 };
 
 		// 순회하고 출력
-		for (auto it = vec.begin(); it < vec.end(); it++)
+		for (auto it = vec.begin(); it != vec.end(); it++)
 		{
 			cout << *it << " ";
 		}
@@ -26,7 +26,8 @@ void main()
 
 
 		// 탐색
-		auto result = find(vec.begin(), vec.end(), 31);			// ※ vec 은 #include<algorithm> 으로 사용
+		auto result = find(vec.begin(), vec.end(), 31);			
+		// ※ find 는 #include<algorithm> 으로 사용
 
 		if (result != vec.end())
 		{
@@ -58,14 +59,18 @@ void main()
 	{
 		vector<int> vec = { 10, 30, 30, 40, 50 };
 		
-		for (auto it = vec.rbegin(); it < vec.rend(); it++) // ※ 역방향은 이처럼 rbegin, rend 를 쓴다. 하지만 역방향이라 해도, it < vec.rend(); it++ 처럼 문법은 순방향과 동일하다
+		// ※ 역방향은 이처럼 rbegin, rend 를 쓴다. 하지만 역방향이라 해도, 
+		// it < vec.rend(); it++ 처럼 문법은 순방향과 동일하다
+		for (auto it = vec.rbegin(); it < vec.rend(); it++) 
 		{
 			printf("%d  ", static_cast<int>((*it)));
 		}
 		printf("\n");
 
 
-		auto ret = find(vec.rbegin(), vec.rend(), 30);	// find 도 마찬가지로 rbegin, rend 사용 가능
+		auto ret = find(vec.rbegin(), vec.rend(), 30);	
+		// find 도 마찬가지로 rbegin, rend 사용 가능
+		
 		printf("%d,  %d", *ret, ret - vec.rbegin());
 
 	}
