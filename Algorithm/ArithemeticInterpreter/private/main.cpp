@@ -112,7 +112,7 @@ void test3(string query)
 	Parser::instance()->parse(query);
 }
 
-int main()
+int TestLib()
 {
 	//test2();
 

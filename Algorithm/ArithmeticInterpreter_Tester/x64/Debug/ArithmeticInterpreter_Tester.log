@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  main.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,36): warning C4251: 'Parser::operations': class 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>' needs to have dll-interface to be used by clients of class 'Parser'
+  (compiling source file '/main.cpp')
+      C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithemeticInterpreter\public\Parser.h(64,2):
+      see declaration of 'std::vector<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>,std::allocator<std::map<int,std::vector<OpNode *,std::allocator<OpNode *>>,std::less<int>,std::allocator<std::pair<const int,std::vector<OpNode *,std::allocator<OpNode *>>>>>>>'
+  
+  ArithmeticInterpreter_Tester.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\ArithmeticInterpreter_Tester\out\x64\Debug\ArithmeticInterpreter_Tester.exe

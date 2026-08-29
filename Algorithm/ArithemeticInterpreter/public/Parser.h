@@ -23,7 +23,7 @@ public :
 	bool isFloat = false;
 };
 
-class Parser
+class __declspec(dllexport) Parser
 {
 private:
 	Parser() {}
