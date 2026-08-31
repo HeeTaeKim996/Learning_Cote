@@ -7,17 +7,20 @@
 using namespace std;
 
 
-// ※ nodes 는 벡터 고정으로 하자. 절대 map 쓰지 말자 [ 성능 낭비 + for(auto.. )할 때 손가락만 아픔 ]. 만약 찾는 node가 있다면, Initialize 때 멤버 로 따로 보관해두면 된다. 아래의 StartNode 예시처럼.
+// ※ nodes 는 벡터 고정으로 하자. 절대 map 쓰지 말자 [ 성능 낭비 + for(auto.. )할 때 손가락만 아픔 ]. 
+// 만약 찾는 node가 있다면, Initialize 때 멤버 로 따로 보관해두면 된다. 아래의 StartNode 예시처럼.
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/12978 
 
 
 struct Node
 {
 	Node(int InIndex) : index(InIndex) {}
 	int index;
-	map<Node*, int> nexts;
+	unordered_map<Node*, int> nexts;
 
 	bool visited;
-	int dist;
+	int time;
 	Node* prev;
 };
 
@@ -47,13 +50,13 @@ struct Graph
 		for (Node* node : nodes)
 		{
 			node->visited = false;
-			node->dist = INT32_MAX;
+			node->time = INT32_MAX;
 			node->prev = nullptr;
 		}
 
-		sNode->dist = 0;
+		sNode->time = 0;
 
-		int repTime = nodes.size() - 1; // start 는 갱신할 필요 없으니, n - 1번
+		int repTime = nodes.size() - 1; // 마지막 노드는 visited == true 까지 갱신할 필요는 없으니, n - 1번
 		while (repTime-- > 0)
 		{
 			Node* closest = nullptr;
@@ -63,9 +66,9 @@ struct Graph
 			{
 				if (node->visited == true) continue;
 
-				if (node->dist < min)
+				if (node->time < min)
 				{
-					min = node->dist;
+					min = node->time;
 					closest = node;
 				}
 			}
@@ -75,17 +78,17 @@ struct Graph
 			
 			for (auto& [to, cost] : closest->nexts)
 			{
-				int newDistance = closest->dist + cost;
-				if (newDistance < to->dist)
+				int newDistance = closest->time + cost;
+				if (newDistance < to->time)
 				{
-					to->dist = newDistance;
+					to->time = newDistance;
 					to->prev = closest;
 				}
 			}
 		}
 
 		// DEBUG
-		for (Node* node : nodes) printf("%2d ", node->dist);
+		for (Node* node : nodes) printf("%2d ", node->time);
 		printf("\n");
 		for (Node* node : nodes) printf("%2d ", node->prev != nullptr ? node->prev->index : -1);
 		printf("\n");
@@ -93,7 +96,7 @@ struct Graph
 		vector<int> answer(nodes.size());
 		for (int i = 0; i < nodes.size(); i++)
 		{
-			answer[i] = nodes[i]->dist;
+			answer[i] = nodes[i]->time;
 		}
 
 		return answer;

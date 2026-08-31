@@ -6,7 +6,8 @@
 
 using namespace std;
 
-// ※ nodes 는 벡터 고정으로 하자. 절대 map 쓰지 말자 [ 성능 낭비 + for(auto.. )할 때 손가락만 아픔 ]. 만약 찾는 node가 있다면, Initialize 때 멤버 로 따로 보관해두면 된다. 아래의 StartNode 예시처럼.
+// ※ nodes 는 벡터 고정으로 하자. 절대 map 쓰지 말자 [ 성능 낭비 + for(auto.. )할 때 손가락만 아픔 ]. 
+// 만약 찾는 node가 있다면, Initialize 때 멤버 로 따로 보관해두면 된다. 아래의 StartNode 예시처럼.
 
 struct Node
 {

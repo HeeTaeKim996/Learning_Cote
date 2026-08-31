@@ -56,29 +56,26 @@
     <Filter Include="Source Files\11.그래프\알고리즘">
       <UniqueIdentifier>{ff1d87eb-1833-45f1-a651-59532d41c357}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\12.백트래킹">
-      <UniqueIdentifier>{da57e56e-0350-4f61-9b16-3600962ea26e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\12.백트래킹\실습">
-      <UniqueIdentifier>{8fcfacb2-70ed-4962-a995-0fcac501938f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\13.정렬">
+    <Filter Include="Source Files\12.정렬">
       <UniqueIdentifier>{2254e1e4-9842-4b19-8581-9893b6b11354}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\14.시뮬레이션">
+    <Filter Include="Source Files\13.시뮬레이션">
       <UniqueIdentifier>{07a20915-ae4c-45f8-8649-509053da86b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\14.시뮬레이션\실습">
+    <Filter Include="Source Files\13.시뮬레이션\실습">
       <UniqueIdentifier>{3bb40cc5-427e-4ee9-b803-3162e0d9c54c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\15.DP">
+    <Filter Include="Source Files\14_16%28백트래킹_DP_Greedy%29">
+      <UniqueIdentifier>{7d629fe7-b299-4886-a170-48ad2edf9e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\14_16%28백트래킹_DP_Greedy%29\14.백트래킹">
+      <UniqueIdentifier>{da57e56e-0350-4f61-9b16-3600962ea26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\14_16%28백트래킹_DP_Greedy%29\15.DP">
       <UniqueIdentifier>{8f005f3b-47c6-4f72-a6e2-ae7187106e96}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\15.DP\실습">
-      <UniqueIdentifier>{c383c0c2-ddb9-4976-9f2c-b46db3475c94}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\999.기타\Temp">
-      <UniqueIdentifier>{605891a5-1d6f-499a-9642-cb2275eeb04e}</UniqueIdentifier>
+    <Filter Include="Source Files\14_16%28백트래킹_DP_Greedy%29\16.Greedy">
+      <UniqueIdentifier>{73c5f5d3-3d1b-4a6d-a34f-3183ea0aed3a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -145,12 +142,6 @@
     <ClCompile Include="11.그래프.알고리즘_최단거리_Bfs_다차원.cpp">
       <Filter>Source Files\11.그래프\알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="12.백트래킹.실습_1_조합구하기.cpp">
-      <Filter>Source Files\12.백트래킹\실습</Filter>
-    </ClCompile>
-    <ClCompile Include="12.백트래킹.실습_2_스도쿠퍼즐.cpp">
-      <Filter>Source Files\12.백트래킹\실습</Filter>
-    </ClCompile>
     <ClCompile Include="999.기타_1_Combination.cpp">
       <Filter>Source Files\999.기타</Filter>
     </ClCompile>
@@ -160,17 +151,14 @@
     <ClCompile Include="04.필수문법_5_priority_queue.cpp">
       <Filter>Source Files\04. 필수문법</Filter>
     </ClCompile>
-    <ClCompile Include="14.시뮬레이션.실습_1_행렬회전.cpp">
-      <Filter>Source Files\14.시뮬레이션\실습</Filter>
+    <ClCompile Include="13.시뮬레이션.실습_1_행렬회전.cpp">
+      <Filter>Source Files\13.시뮬레이션\실습</Filter>
     </ClCompile>
-    <ClCompile Include="14.시뮬레이션.실습_2_행렬곱_행렬전치.cpp">
-      <Filter>Source Files\14.시뮬레이션\실습</Filter>
+    <ClCompile Include="13.시뮬레이션.실습_2_행렬곱_행렬전치.cpp">
+      <Filter>Source Files\13.시뮬레이션\실습</Filter>
     </ClCompile>
-    <ClCompile Include="14.시뮬레이션.실습_3_달팽이수열.cpp">
-      <Filter>Source Files\14.시뮬레이션\실습</Filter>
-    </ClCompile>
-    <ClCompile Include="15.DP.실습_1_조약돌문제.cpp">
-      <Filter>Source Files\15.DP\실습</Filter>
+    <ClCompile Include="13.시뮬레이션.실습_3_달팽이수열.cpp">
+      <Filter>Source Files\13.시뮬레이션\실습</Filter>
     </ClCompile>
     <ClCompile Include="999.기타_3_nCr_nHr.cpp">
       <Filter>Source Files\999.기타</Filter>
@@ -213,20 +201,26 @@
     <Text Include="집합_정리.txt">
       <Filter>Source Files\10.집합</Filter>
     </Text>
-    <Text Include="12.백트래킹_정리.txt">
-      <Filter>Source Files\12.백트래킹\실습</Filter>
-    </Text>
-    <Text Include="13.정렬 정리.txt">
-      <Filter>Source Files\13.정렬</Filter>
+    <Text Include="12.정렬 정리.txt">
+      <Filter>Source Files\12.정렬</Filter>
     </Text>
     <Text Include="sto 시리즈 정리.txt">
       <Filter>Source Files\04. 필수문법\추가</Filter>
     </Text>
-    <Text Include="14.시뮬레이션_정리.txt">
-      <Filter>Source Files\14.시뮬레이션</Filter>
+    <Text Include="13.시뮬레이션_정리.txt">
+      <Filter>Source Files\13.시뮬레이션</Filter>
     </Text>
     <Text Include="15.DP_정리.txt">
-      <Filter>Source Files\15.DP</Filter>
+      <Filter>Source Files\14_16%28백트래킹_DP_Greedy%29\15.DP</Filter>
+    </Text>
+    <Text Include="12.백트래킹_정리.txt">
+      <Filter>Source Files\14_16%28백트래킹_DP_Greedy%29\14.백트래킹</Filter>
+    </Text>
+    <Text Include="16.Greedy정리.txt">
+      <Filter>Source Files\14_16%28백트래킹_DP_Greedy%29\16.Greedy</Filter>
+    </Text>
+    <Text Include="14_16정리.txt">
+      <Filter>Source Files\14_16%28백트래킹_DP_Greedy%29</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

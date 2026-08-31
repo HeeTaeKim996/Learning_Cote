@@ -70,7 +70,7 @@ void solution(int n)
 
 void main()
 {
-	printf("14.시뮬레이션.실습_3_달팽이수열");
+	printf("13.시뮬레이션.실습_3_달팽이수열");
 	printf("\n\n\n");
 
 	solution(3);

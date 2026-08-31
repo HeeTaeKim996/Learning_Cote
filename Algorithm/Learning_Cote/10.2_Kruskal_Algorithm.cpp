@@ -1,3 +1,5 @@
+#if 0
+
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -83,6 +85,9 @@ int solution(int n, vector<vector<int>> costs)
 
 int main()
 {
+    printf("10.2_Kruskal_Algorithm\n\n\n");
+
+
     // 유명한 Kruskal 알고리즘이다. 라우터간 최소비용 연결 문제 해결법으로 대표적이다.
     
     // 원리는 간단하다.
@@ -133,3 +138,5 @@ int main()
 
     return 0;
 }
+
+#endif

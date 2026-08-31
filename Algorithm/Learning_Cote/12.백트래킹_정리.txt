@@ -9,3 +9,10 @@
 	- 특히 3) 에서 이미 했던 부분을 다시 할 경우, 무한 재귀로 크래시가 나기 때문에, 방문했던 곳을 다시 방문하지 않을 방법을 생각해야 한다.
 	- 재방문 방지를 위한 구조로, 1. 배열에서 낮은 인덱스를 방문하지 않는 구조 2. Node 에 bool visited 를 사용해서 재방문 방지. 이렇게 2개가 대표적이다.
 	- 1. 2. 로 대표되는 재방문 방지 방법을 잘 선정하냐 여부에 따라, 백트래킹의 변별력이 갈리는 것 같다. 
+
+
+
+○ 예재
+- https://school.programmers.co.kr/learn/courses/30/lessons/12952
+- https://school.programmers.co.kr/learn/courses/30/lessons/87946
+- https://school.programmers.co.kr/learn/courses/30/lessons/42839#

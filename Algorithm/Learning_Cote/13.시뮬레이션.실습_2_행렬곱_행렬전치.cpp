@@ -61,7 +61,7 @@ struct Matrix
 
 void main()
 {
-	printf("14.시뮬레이션.실습_2_행렬곱_행렬전치");
+	printf("13.시뮬레이션.실습_2_행렬곱_행렬전치");
 	printf("\n\n\n");
 
     auto PrintMat = [&](vector<vector<int>> vecs)

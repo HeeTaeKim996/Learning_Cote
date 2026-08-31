@@ -39,7 +39,7 @@ vector<vector<int>> Rotate(vector<vector<int>> v, bool clockwise)
 
 void main()
 {
-	printf("14.시뮬레이션.실습_1_행렬회전");
+	printf("13.시뮬레이션.실습_1_행렬회전");
 	printf("\n\n\n");
 
 	auto PrintMat = [&](vector<vector<int>> vecs)

@@ -1,4 +1,4 @@
-#if 0
+#if 1
 
 /*
     - 최단거리 Bfs 에서, 조건 이 생길 때 사용할 수 있는 Bfs _ 다차원 문제 답이다.
@@ -19,6 +19,7 @@
 #include <vector>
 #include <queue>
 #include <functional>
+#include <stdio.h>
 
 using namespace std;
 
@@ -140,12 +141,12 @@ int solution(vector<vector<int>> board)
 }
 
 
-void main()
+int main()
 {
-    printf("11.그래프.알고리즘_최단거리_Bfs_다차원");
+    printf("11.");
     printf("\n\n\n");
 
-
+    return 0;
 }
 
 
