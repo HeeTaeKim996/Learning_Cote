@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\001.Search">
+      <UniqueIdentifier>{61d608d0-217f-4f07-aeb1-a5d5af10cb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\002.Sort">
+      <UniqueIdentifier>{50cd0992-dc01-4e4d-80cb-8d482f56dc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\000.Array">
+      <UniqueIdentifier>{8c69986c-eb85-43f9-b797-53d84d13f1d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Source Files\001.Search</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Source Files\002.Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedArray.cpp">
+      <Filter>Source Files\000.Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files\000.Array</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Search.h">
+      <Filter>Source Files\001.Search</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Source Files\002.Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedArray.h">
+      <Filter>Source Files\000.Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Source Files\000.Array</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
