@@ -1,38 +1,10 @@
-﻿  3.1.StringMatch.cpp
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(93,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
+﻿  3.2.Trie.cpp
+  main.cpp
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\Sort.h(460,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/main.cpp')
   
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(93,19): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
+C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\Sort.h(518,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/main.cpp')
   
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(94,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(94,22): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(147,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(147,19): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(148,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(148,22): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(328,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(328,19): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(329,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Algorithm\Algorithm\3.1.StringMatch.cpp(329,22): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
-  (compiling source file '/3.1.StringMatch.cpp')
-  
+  Generating Code...
   Algorithm.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Algorithm\x64\Debug\Algorithm.exe

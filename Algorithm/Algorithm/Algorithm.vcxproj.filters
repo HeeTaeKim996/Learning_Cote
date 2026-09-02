@@ -40,6 +40,9 @@
     <ClCompile Include="3.1.StringMatch.cpp">
       <Filter>Source Files\003.StringMatch</Filter>
     </ClCompile>
+    <ClCompile Include="3.2.Trie.cpp">
+      <Filter>Source Files\003.StringMatch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Search.h">
@@ -60,5 +63,11 @@
     <ClInclude Include="3.1.StringMatch.h">
       <Filter>Source Files\003.StringMatch</Filter>
     </ClInclude>
+    <ClInclude Include="3.2.Trie.h">
+      <Filter>Source Files\003.StringMatch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
