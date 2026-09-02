@@ -136,6 +136,7 @@
     </ClCompile>
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="3.1.StringMatch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
@@ -143,6 +144,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Search.h" />
     <ClInclude Include="Sort.h" />
+    <ClInclude Include="3.1.StringMatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

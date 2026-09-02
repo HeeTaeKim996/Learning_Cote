@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\3.1.StringMatch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\3.1.StringMatch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\FixedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\FixedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,24 +39,8 @@
       "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\FixedArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\FixedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\FixedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9162A95E-1650-4B92-8BF2-C71AC52F5FC5}|Algorithm\\Algorithm.vcxproj|solutionrelative:Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B72B0415-8588-4714-8369-AB5565CE9E13}|Learning_Cote\\Learning_Cote.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_2_CombinationWithRepetition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -245,12 +249,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 237,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 221,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "3.1.StringMatch.h",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.h",
+              "RelativeDocumentMoniker": "Algorithm\\3.1.StringMatch.h",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.h",
+              "RelativeToolTip": "Algorithm\\3.1.StringMatch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-09-01T22:43:24.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Search.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.h",
               "RelativeDocumentMoniker": "Algorithm\\Search.h",
@@ -262,20 +279,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Sort.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.h",
               "RelativeDocumentMoniker": "Algorithm\\Sort.h",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.h",
               "RelativeToolTip": "Algorithm\\Sort.h",
-              "ViewState": "AgIAAL4BAAAAAAAAAAApwM8BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAApwMUBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-31T12:07:57.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:07:57.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "pch.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\pch.cpp",
               "RelativeDocumentMoniker": "Algorithm\\pch.cpp",
@@ -287,31 +303,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\pch.h",
-              "RelativeDocumentMoniker": "Algorithm\\pch.h",
-              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\pch.h",
-              "RelativeToolTip": "Algorithm\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-31T11:18:44.606Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\main.cpp",
               "RelativeDocumentMoniker": "Algorithm\\main.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\main.cpp",
               "RelativeToolTip": "Algorithm\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-31T11:15:42.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "FixedArray.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\FixedArray.h",
               "RelativeDocumentMoniker": "Algorithm\\FixedArray.h",
@@ -323,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "14_16\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\14_16\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\14_16\uC815\uB9AC.txt",
@@ -335,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "16.Greedy\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\16.Greedy\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\16.Greedy\uC815\uB9AC.txt",
@@ -347,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PracticeSheet.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\PracticeSheet.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\PracticeSheet.cpp",
@@ -359,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "12.\uBC31\uD2B8\uB798\uD0B9_\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\12.\uBC31\uD2B8\uB798\uD0B9_\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\12.\uBC31\uD2B8\uB798\uD0B9_\uC815\uB9AC.txt",
@@ -371,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "15.DP_\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\15.DP_\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\15.DP_\uC815\uB9AC.txt",
@@ -383,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "999.\uAE30\uD0C0_1_Combination.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_1_Combination.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\999.\uAE30\uD0C0_1_Combination.cpp",
@@ -395,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "999.\uAE30\uD0C0_2_CombinationWithRepetition.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_2_CombinationWithRepetition.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\999.\uAE30\uD0C0_2_CombinationWithRepetition.cpp",
@@ -407,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs_\uB2E4\uCC28\uC6D0.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs_\uB2E4\uCC28\uC6D0.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs_\uB2E4\uCC28\uC6D0.cpp",
@@ -419,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_3_\uB2EC\uD33D\uC774\uC218\uC5F4.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_3_\uB2EC\uD33D\uC774\uC218\uC5F4.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_3_\uB2EC\uD33D\uC774\uC218\uC5F4.cpp",
@@ -431,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_2_\uD589\uB82C\uACF1_\uD589\uB82C\uC804\uCE58.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_2_\uD589\uB82C\uACF1_\uD589\uB82C\uC804\uCE58.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_2_\uD589\uB82C\uACF1_\uD589\uB82C\uC804\uCE58.cpp",
@@ -443,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_1_\uD589\uB82C\uD68C\uC804.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_1_\uD589\uB82C\uD68C\uC804.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158.\uC2E4\uC2B5_1_\uD589\uB82C\uD68C\uC804.cpp",
@@ -455,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "13.\uC2DC\uBBAC\uB808\uC774\uC158_\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158_\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\13.\uC2DC\uBBAC\uB808\uC774\uC158_\uC815\uB9AC.txt",
@@ -467,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "12.\uC815\uB82C \uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\12.\uC815\uB82C \uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\12.\uC815\uB82C \uC815\uB9AC.txt",
@@ -479,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uCD5C\uB2E8\uAC70\uB9AC_Bfs.cpp",
@@ -491,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uBC38\uB9CC\uD3EC\uB4DC\uC54C\uACE0\uB9AC\uC998.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uBC38\uB9CC\uD3EC\uB4DC\uC54C\uACE0\uB9AC\uC998.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uBC38\uB9CC\uD3EC\uB4DC\uC54C\uACE0\uB9AC\uC998.cpp",
@@ -503,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "10.2_Kruskal_Algorithm.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\10.2_Kruskal_Algorithm.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\10.2_Kruskal_Algorithm.cpp",
@@ -515,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uB2E4\uC775\uC2A4\uD2B8\uB77C\uC54C\uACE0\uB9AC\uC998.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uB2E4\uC775\uC2A4\uD2B8\uB77C\uC54C\uACE0\uB9AC\uC998.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uB2E4\uC775\uC2A4\uD2B8\uB77C\uC54C\uACE0\uB9AC\uC998.cpp",
@@ -527,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\11.\uADF8\uB798\uD504.\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8.cpp",
@@ -539,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "\uC9D1\uD569_\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\\uC9D1\uD569_\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\\uC9D1\uD569_\uC815\uB9AC.txt",
@@ -551,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "10.1_\uC9D1\uD569_\uC9D1\uD569\uAC1C\uC694\uCF54\uB4DC.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\10.1_\uC9D1\uD569_\uC9D1\uD569\uAC1C\uC694\uCF54\uB4DC.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\10.1_\uC9D1\uD569_\uC9D1\uD569\uAC1C\uC694\uCF54\uB4DC.cpp",
@@ -563,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "04.\uD544\uC218\uBB38\uBC95_3_\uBCA1\uD130_\uC14B_\uB9F5.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_3_\uBCA1\uD130_\uC14B_\uB9F5.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_3_\uBCA1\uD130_\uC14B_\uB9F5.cpp",
@@ -575,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "\uC2E4\uC2B5\uC815\uB9AC_\uC2A4\uD0DD.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\\uC2E4\uC2B5\uC815\uB9AC_\uC2A4\uD0DD.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\\uC2E4\uC2B5\uC815\uB9AC_\uC2A4\uD0DD.txt",
@@ -587,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "09.\uD2B8\uB9AC.\uD544\uC694\uC54C\uACE0\uB9AC\uC998.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\09.\uD2B8\uB9AC.\uD544\uC694\uC54C\uACE0\uB9AC\uC998.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\09.\uD2B8\uB9AC.\uD544\uC694\uC54C\uACE0\uB9AC\uC998.cpp",
@@ -599,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "07.\uD050.\uD544\uC218\uBB38\uBC95.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\07.\uD050.\uD544\uC218\uBB38\uBC95.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\07.\uD050.\uD544\uC218\uBB38\uBC95.cpp",
@@ -611,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "\uD2B8\uB9AC_\uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\\uD2B8\uB9AC_\uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\\uD2B8\uB9AC_\uC815\uB9AC.txt",
@@ -623,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "07.\uD050.\uC2E4\uC2B5_1_\uC694\uC138\uD478\uC2A4\uBB38\uC81C.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\07.\uD050.\uC2E4\uC2B5_1_\uC694\uC138\uD478\uC2A4\uBB38\uC81C.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\07.\uD050.\uC2E4\uC2B5_1_\uC694\uC138\uD478\uC2A4\uBB38\uC81C.cpp",
@@ -635,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "\uC2E4\uC2B5_\uD050.text",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\\uC2E4\uC2B5_\uD050.text",
               "RelativeDocumentMoniker": "Learning_Cote\\\uC2E4\uC2B5_\uD050.text",
@@ -647,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "04.\uD544\uC218\uBB38\uBC95.\uCD94\uAC00_1_\uACF5\uBC31\uAD6C\uBD84sstream.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95.\uCD94\uAC00_1_\uACF5\uBC31\uAD6C\uBD84sstream.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95.\uCD94\uAC00_1_\uACF5\uBC31\uAD6C\uBD84sstream.cpp",
@@ -659,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "04.\uD544\uC218\uBB38\uBC95_1_\uBB38\uC790\uC5F4_\uAE30\uBCF8\uBB38\uBC95.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_1_\uBB38\uC790\uC5F4_\uAE30\uBCF8\uBB38\uBC95.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_1_\uBB38\uC790\uC5F4_\uAE30\uBCF8\uBB38\uBC95.cpp",
@@ -671,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "04.\uD544\uC218\uBB38\uBC95_2_\uC774\uD130\uB808\uC774\uD130.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_2_\uC774\uD130\uB808\uC774\uD130.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_2_\uC774\uD130\uB808\uC774\uD130.cpp",
@@ -683,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "04.\uD544\uC218\uBB38\uBC95_4_algorithm.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_4_algorithm.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_4_algorithm.cpp",
@@ -695,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "04.\uD544\uC218\uBB38\uBC95_5_priority_queue.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_5_priority_queue.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\04.\uD544\uC218\uBB38\uBC95_5_priority_queue.cpp",
@@ -707,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "\uC2E4\uC2B5\uC815\uB9AC_\uBC30\uC5F4.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\\uC2E4\uC2B5\uC815\uB9AC_\uBC30\uC5F4.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\\uC2E4\uC2B5\uC815\uB9AC_\uBC30\uC5F4.txt",
@@ -719,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uD589\uB82C\uC758_\uACF1\uC148.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uD589\uB82C\uC758_\uACF1\uC148.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uD589\uB82C\uC758_\uACF1\uC148.cpp",
@@ -731,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uC2E4\uD328\uC728.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uC2E4\uD328\uC728.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_5_\uC2E4\uD328\uC728.cpp",
@@ -743,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_4_\uBAA8\uC758\uACE0\uC0AC.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_4_\uBAA8\uC758\uACE0\uC0AC.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_4_\uBAA8\uC758\uACE0\uC0AC.cpp",
@@ -755,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_2_\uBC30\uC5F4_\uC81C\uC5B4\uD558\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_2_\uBC30\uC5F4_\uC81C\uC5B4\uD558\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_2_\uBC30\uC5F4_\uC81C\uC5B4\uD558\uAE30.cpp",
@@ -767,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_3_\uB450_\uC218\uB97C_\uBF51\uC544\uC11C_\uB354\uD558\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_3_\uB450_\uC218\uB97C_\uBF51\uC544\uC11C_\uB354\uD558\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_3_\uB450_\uC218\uB97C_\uBF51\uC544\uC11C_\uB354\uD558\uAE30.cpp",
@@ -779,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "05.\uBC30\uC5F4.\uC2E4\uC2B5_1_\uBC30\uC5F4_\uC815\uB82C\uD558\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_1_\uBC30\uC5F4_\uC815\uB82C\uD558\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4.\uC2E4\uC2B5_1_\uBC30\uC5F4_\uC815\uB82C\uD558\uAE30.cpp",
@@ -791,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "05.\uBC30\uC5F4_\uBC30\uC5F4\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8_\uB2E4\uB8E8\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\05.\uBC30\uC5F4_\uBC30\uC5F4\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8_\uB2E4\uB8E8\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\05.\uBC30\uC5F4_\uBC30\uC5F4\uC54C\uACE0\uB9AC\uC998_\uAE30\uBCF8_\uB2E4\uB8E8\uAE30.cpp",
@@ -803,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "06.\uC2A4\uD0DD.\uC2E4\uC2B5_1_\uAD04\uD638_\uC9DD_\uB9DE\uCD94\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\06.\uC2A4\uD0DD.\uC2E4\uC2B5_1_\uAD04\uD638_\uC9DD_\uB9DE\uCD94\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\06.\uC2A4\uD0DD.\uC2E4\uC2B5_1_\uAD04\uD638_\uC9DD_\uB9DE\uCD94\uAE30.cpp",
@@ -815,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "06.\uC2A4\uD0DD_\uC2E4\uC2B5_2_10\uC9C4\uC218\uB97C_2\uC9C4\uC218\uB85C_\uBCC0\uD658\uD558\uAE30.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\06.\uC2A4\uD0DD_\uC2E4\uC2B5_2_10\uC9C4\uC218\uB97C_2\uC9C4\uC218\uB85C_\uBCC0\uD658\uD558\uAE30.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\06.\uC2A4\uD0DD_\uC2E4\uC2B5_2_10\uC9C4\uC218\uB97C_2\uC9C4\uC218\uB85C_\uBCC0\uD658\uD558\uAE30.cpp",
@@ -827,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "sto \uC2DC\uB9AC\uC988 \uC815\uB9AC.txt",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\sto \uC2DC\uB9AC\uC988 \uC815\uB9AC.txt",
               "RelativeDocumentMoniker": "Learning_Cote\\sto \uC2DC\uB9AC\uC988 \uC815\uB9AC.txt",
@@ -839,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Node.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\public\\Node.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\public\\Node.h",
@@ -851,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Parser.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\public\\Parser.h",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\public\\Parser.h",
@@ -863,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\private\\main.cpp",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\private\\main.cpp",
@@ -875,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "MemoryTracker.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\ArithemeticInterpreter\\private\\MemoryTracker.cpp",
               "RelativeDocumentMoniker": "ArithemeticInterpreter\\private\\MemoryTracker.cpp",
@@ -887,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "999.\uAE30\uD0C0_4_IsPrime.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_4_IsPrime.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\999.\uAE30\uD0C0_4_IsPrime.cpp",
@@ -899,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "999.\uAE30\uD0C0_5_ImosMethod.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_5_ImosMethod.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\999.\uAE30\uD0C0_5_ImosMethod.cpp",
@@ -911,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "999.\uAE30\uD0C0_3_nCr_nHr.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Learning_Cote\\999.\uAE30\uD0C0_3_nCr_nHr.cpp",
               "RelativeDocumentMoniker": "Learning_Cote\\999.\uAE30\uD0C0_3_nCr_nHr.cpp",
@@ -924,12 +928,25 @@
           ]
         },
         {
-          "DockedWidth": 239,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 255,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "3.1.StringMatch.cpp",
+              "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.cpp",
+              "RelativeDocumentMoniker": "Algorithm\\3.1.StringMatch.cpp",
+              "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\3.1.StringMatch.cpp",
+              "RelativeToolTip": "Algorithm\\3.1.StringMatch.cpp",
+              "ViewState": "AgIAACUBAAAAAAAAAAAuwFYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-01T22:49:39.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FixedArray.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\FixedArray.cpp",
               "RelativeDocumentMoniker": "Algorithm\\FixedArray.cpp",
@@ -937,30 +954,31 @@
               "RelativeToolTip": "Algorithm\\FixedArray.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-31T23:38:50.205Z"
+              "WhenOpened": "2026-08-31T23:38:50.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Sort.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.cpp",
               "RelativeDocumentMoniker": "Algorithm\\Sort.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Sort.cpp",
               "RelativeToolTip": "Algorithm\\Sort.cpp",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwEwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-31T12:07:59.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Search.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.cpp",
               "RelativeDocumentMoniker": "Algorithm\\Search.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Algorithm\\Algorithm\\Search.cpp",
               "RelativeToolTip": "Algorithm\\Search.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-31T11:17:12.722Z"
             }

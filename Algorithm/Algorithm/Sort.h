@@ -202,7 +202,7 @@ template<typename T>
 inline void Sort::quickSort(Array<T>& arrs, function<int(const T& a, const T& b)> compare)
 {
 
-#if 0	// V1S
+#if 0	// V1
 
 	// ■ 이해 정리
 	//	 ※ 아래 설명에서, x = arrs[mid]
@@ -463,9 +463,11 @@ inline void Sort::countingSort(Array<int>& arrs, int max)
 }
 
 
-// radixSort : 양의 정수만을 다룬 다는 점은 도수정렬과 동일하지만, 
-//			   도수정렬 의 공간 필요가 O(n + M) (M 은 최댓값)인 반면, 기수 정렬은 O(n + k) (k == 10 ~ 256)이다
-//			   기수정렬 도 충분히 효율 좋아보이니 필요한 방법을 선택해서 사용하는 게 좋을 듯 싶다.
+// □ 기수정렬(RadixSort) 
+//	도수 정렬의 안정정렬 특성을 활용하여, 도수 정렬을 반복하는 정렬
+//	도수 정렬, 기수 정렬 모두 양의 정수를 대상으로 한다.
+//	정수값의 최대값, 최소값의 편차가 작다면 도수정렬, 크다면 기수정렬을 활용하자
+//
 inline void Sort::radixSort(Array<int>& arrs)
 {
 #if 0 // V1
@@ -506,8 +508,13 @@ inline void Sort::radixSort(Array<int>& arrs)
 		memcpy(&arrs[0], &buffer[0], n * sizeof(int));
 	}
 #elif 1 // V2 : 
-		// 1) (10 제곱수 나누기) 가 아닌 (8배수 우측 시프트) 로 수정하여, 효율 증대
-		// 2) 루프 때마다 buffer -> arrs 복사를 하지 않고, buffer -> arrs || arrs -> buffer 를 번갈아 해서, 효율 증대
+		// 1) (10 제곱수 나누기) 가 아닌 (N 배수 우측 시프트) 로 수정하여, 효율 개선
+		// 2) 루프 때마다 buffer -> arrs 복사를 하지 않고, buffer -> arrs || arrs -> buffer 를 번갈아 해서, 효율 개선
+	
+#define SHIFTING_CHUNK 4
+#define READING_CHUNK 0x0F
+	
+
 	int n = arrs.size();
 	
 	Array<int> buffer(n);
@@ -520,15 +527,15 @@ inline void Sort::radixSort(Array<int>& arrs)
 	}
 
 	
-	for (int shift = 0; (max >> shift) > 0; shift += 8)
+	for (int shift = 0; (max >> shift) > 0; shift += SHIFTING_CHUNK)
 	{
-		int imos[0xFF + 1] = {};
+		int imos[READING_CHUNK + 1] = {};
 
 		if (copyOnArrs)
 		{
 			for (int i = 0; i < n; i++)
 			{
-				int index = (buffer[i] >> shift) & 0xFF;
+				int index = (buffer[i] >> shift) & READING_CHUNK;
 				imos[index]++;
 			}
 		}
@@ -536,13 +543,13 @@ inline void Sort::radixSort(Array<int>& arrs)
 		{
 			for (int i = 0; i < n; i++)
 			{
-				int index = (arrs[i] >> shift) & 0xFF;
+				int index = (arrs[i] >> shift) & READING_CHUNK;
 				imos[index]++;
 			}
 		}
 
 
-		for (int i = 1; i <= 0xFF; i++)
+		for (int i = 1; i <= READING_CHUNK; i++)
 		{
 			imos[i] += imos[i - 1];
 		}
@@ -551,7 +558,7 @@ inline void Sort::radixSort(Array<int>& arrs)
 		{
 			for (int i = n - 1; i >= 0; i--)
 			{
-				int index = (buffer[i] >> shift) & 0xFF;
+				int index = (buffer[i] >> shift) & READING_CHUNK;
 				arrs[--imos[index]] = buffer[i];
 			}
 		}
@@ -559,7 +566,7 @@ inline void Sort::radixSort(Array<int>& arrs)
 		{
 			for (int i = n - 1; i >= 0; i--)
 			{
-				int index = (arrs[i] >> shift) & 0xFF;
+				int index = (arrs[i] >> shift) & READING_CHUNK;
 				buffer[--imos[index]] = arrs[i];
 			}
 		}

@@ -14,6 +14,9 @@
     <Filter Include="Source Files\000.Array">
       <UniqueIdentifier>{8c69986c-eb85-43f9-b797-53d84d13f1d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\003.StringMatch">
+      <UniqueIdentifier>{35f58b4e-3be3-4cff-a2ae-7cbfa09b461f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -34,6 +37,9 @@
     <ClCompile Include="Array.cpp">
       <Filter>Source Files\000.Array</Filter>
     </ClCompile>
+    <ClCompile Include="3.1.StringMatch.cpp">
+      <Filter>Source Files\003.StringMatch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Search.h">
@@ -50,6 +56,9 @@
     </ClInclude>
     <ClInclude Include="Array.h">
       <Filter>Source Files\000.Array</Filter>
+    </ClInclude>
+    <ClInclude Include="3.1.StringMatch.h">
+      <Filter>Source Files\003.StringMatch</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
