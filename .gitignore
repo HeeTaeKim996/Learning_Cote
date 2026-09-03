@@ -1,84 +1,22 @@
+# C/C++ Build Artifacts
+*.d
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
 
-#----------------
-#    Algorithm
-#----------------
-# Prerequisites
-Algorithm/**/*.d
-
-# Compiled Object files
-Algorithm/**/*.slo
-Algorithm/**/*.lo
-Algorithm/**/*.o
-Algorithm/**/*.obj
-
-# Precompiled Headers
-Algorithm/**/*.gch
-Algorithm/**/*.pch
-
-# Linker files
-Algorithm/**/*.ilk
-
-# Debugger Files
-Algorithm/**/*.pdb
-
-# Compiled Dynamic libraries
-Algorithm/**/*.so
-Algorithm/**/*.dylib
-Algorithm/**/*.dll
-
-# Fortran module files
-Algorithm/**/*.mod
-Algorithm/**/*.smod
-
-# Compiled Static libraries
-Algorithm/**/*.lai
-Algorithm/**/*.la
-Algorithm/**/*.a
-Algorithm/**/*.lib
-
-# Executables
-Algorithm/**/*.exe
-Algorithm/**/*.out
-Algorithm/**/*.app
-
-# debug information files
-Algorithm/**/*.dwo
-
-Algorithm/**/*.ipch
-
-
-
-
-#----------------------
-#    DesignPattern
-#----------------------
-### IntelliJ IDEA ###
-DesignPattern/out/
-!DesignPattern/**/src/main/**/out/
-!DesignPattern/**/src/test/**/out/
-DesignPattern/.kotlin
-
-### Eclipse ###
-DesignPattern/.apt_generated
-DesignPattern/.classpath
-DesignPattern/.factorypath
-DesignPattern/.project
-DesignPattern/.settings
-DesignPattern/.springBeans
-DesignPattern/.sts4-cache
-DesignPattern/bin/
-!DesignPattern/**/src/main/**/bin/
-!DesignPattern/**/src/test/**/bin/
-
-### NetBeans ###
-DesignPattern/nbproject/private/
-DesignPattern/nbbuild/
-DesignPattern/dist/
-DesignPattern/nbdist/
-DesignPattern/.nb-gradle/
-
-### VS Code ###
-DesignPattern/.vscode/
-
-### Mac OS ###
-DesignPattern/.DS_Store
+# IDE & OS Artifacts
+.DS_Store
+.vscode/
+out/
+bin/
+.classpath
+.project
+.settings/
+.idea/
+.kotlin
