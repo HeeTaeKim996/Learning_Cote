@@ -1,6 +1,6 @@
 #pragma once
 
-typedef unsigned long uint32;
+typedef unsigned long sizeType;
 
 
 #include "Std.h"

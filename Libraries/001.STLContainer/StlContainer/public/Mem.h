@@ -1,10 +1,10 @@
 #pragma once
-
+#include <new>
 
 namespace m
 {
 	template<typename T>
-	[[nodiscard]] inline T* allocate(uint32 capacity) // ※ [[nodiscard]] : 호출자가 이 함수의 반환값을 변수에 저장하지 않고 버릴시, 컴파일 경고 발생
+	[[nodiscard]] inline T* allocate(sizeType capacity) // ※ [[nodiscard]] : 호출자가 이 함수의 반환값을 변수에 저장하지 않고 버릴시, 컴파일 경고 발생
 	{
 		return static_cast<T*>(::operator new(capacity * sizeof(T)));
 		// ■ ::operater new 

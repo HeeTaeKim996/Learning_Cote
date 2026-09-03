@@ -5,6 +5,7 @@
 
 #if 0
 #include "utility.h"
+#include "Vector.h"
 
 
 template <typename T>
@@ -217,6 +218,8 @@ void vector<T>::push_back(value_type&& value) {
     }
 }
 
+
+
 template <typename T>
 void vector<T>::pop_back() {
     __destruct(__arr + --__size);
@@ -297,6 +300,46 @@ void vector<T>::insert(const_pointer_type pos,
 
     __size = new_size;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 template <typename T>
 void vector<T>::erase(const_pointer_type pos) {
