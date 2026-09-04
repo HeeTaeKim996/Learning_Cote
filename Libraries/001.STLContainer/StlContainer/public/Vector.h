@@ -40,8 +40,8 @@ public:
 	T& front()				{ return *_arr; }
 	const T& front() const	{ return *_arr; }
 
-	T& back()				{ return *(end() - 1); }
-	const T& back() const	{ return *(end() - 1); }
+	T& back()				{ return *(_arr + _size - 1); }
+	const T& back() const	{ return *(_arr + _size - 1); }
 
 	T& at(sizeType index)				{ return _arr[index]; }
 	const T& at(sizeType index) const	{ return _arr[index]; }
@@ -102,7 +102,7 @@ inline Vector<T>::Vector(const Vector& other)
 	//	1) allocate(_capacity) 를 할당하지 않고 공란을 뒀다. _capacity 를 할당했다
 	//	2) copyRange 하면 안된다. 위에 보면 allocate 로 공간 할당만 한 상태이다. 이때 해야할 건 copyConstructRange 이다
 
-	m::copyConstructRange<T>(_arr, other.begin(), other.end());
+	m::copyConstructRange<T>(_arr, other._arr, other._arr + other._size);
 }
 
 template<typename T>
@@ -117,7 +117,7 @@ inline Vector<T>::Vector(Vector&& other)
 template<typename T>
 inline Vector<T>::~Vector()
 {
-	m::destructRange<T>(begin(), end());
+	m::destructRange<T>(_arr, _arr + _size);
 	m::deallocate<T>(_arr);
 	_arr = nullptr;
 }
@@ -131,9 +131,9 @@ template<typename T>
 inline  Vector<T>& Vector<T>::operator=(const Vector<T>& other)
 {
 	T* dst =  m::allocate<T>(other._capacity);
-	m::copyConstructRange<T>(dst, other.begin(), other.end());
+	m::copyConstructRange<T>(dst, other._arr, other._arr + other._size);
 
-	m::destructRange<T>(begin(), end());
+	m::destructRange<T>(_arr, _arr + _size);
 	m::deallocate<T>(_arr);
 
 	_arr = dst;
@@ -147,7 +147,7 @@ inline  Vector<T>& Vector<T>::operator=(const Vector<T>& other)
 template<typename T>
 inline  Vector<T>& Vector<T>::operator=(Vector<T>&& other)
 {
-	m::destructRange<T>(begin(), end());
+	m::destructRange<T>(_arr, _arr + _size);
 	m::deallocate<T>(_arr);
 	
 	_size		= other._size;
@@ -212,10 +212,11 @@ inline void Vector<T>::push_back(const T& value)
 		T* dst = newArr + _size;
 		m::construct<T>(dst, value);
 		dst -= 1;
-		m::moveConstructBackward<T>(dst, end() - 1, begin() - 1); // 여기서 (2) 는 rbegin 역할, (3) 은 rend
 
-		m::destructRange<T>(begin(), end());
-		m::deallocate<T>(begin());
+		m::moveConstructBackward<T>(dst, _arr + _size - 1, _arr - 1); // 여기서 (2) 는 rbegin 역할, (3) 은 rend
+
+		m::destructRange<T>(_arr, _arr + _size);
+		m::deallocate<T>(_arr);
 
 		_arr = newArr;
 		_capacity = newCap;
@@ -239,10 +240,10 @@ inline void Vector<T>::push_back(T&& value)
 		T* dst = newArr + _size;
 		m::construct<T>(dst, static_cast<T&&>(value));
 		dst -= 1;
-		m::moveConstructBackward<T>(dst, end() - 1, begin() - 1);
+		m::moveConstructBackward<T>(dst, _arr + _size - 1, _arr - 1);
 
-		m::destructRange<T>(begin(), end());
-		m::deallocate<T>(begin());
+		m::destructRange<T>(_arr, _arr + _size);
+		m::deallocate<T>(_arr);
 
 		_arr = newArr;
 		_capacity = newCap;
@@ -255,6 +256,9 @@ inline void Vector<T>::push_back(T&& value)
 template<typename T>
 inline void Vector<T>::pop_back()
 {
+	// 방어코드는 작성하지 않는다. stl vector 도 성능을 위해 사용자에게 책임을 맡긴다 함
+	// if (_size == 0) return;
+
 	m::destruct<T>(_arr + --_size);
 }
 
@@ -277,10 +281,10 @@ inline T& Vector<T>::emplace_back(Args&&... args)
 		T* dst = newArr + _size;
 		m::construct<T>(dst, Std::forward<Args>(args)...);
 		dst -= 1;
-		m::moveConstructBackward<T>(dst, end() - 1, begin() - 1);
+		m::moveConstructBackward<T>(dst, _arr + _size - 1, _arr - 1);
 
-		m::destructRange<T>(begin(), end());
-		m::deallocate<T>(begin());
+		m::destructRange<T>(_arr, _arr + _size);
+		m::deallocate<T>(_arr);
 
 		_arr = newArr;
 		_capacity = newCap;
@@ -307,9 +311,9 @@ inline T& Vector<T>::emplace_back(Args&&... args)
 
 
 template<typename T>
-inline void Vector<T>::insert(const T* pos, const T& value)
+inline void Vector<T>::insert(const T* itPos, const T& value)
 {
-	if (pos == end())
+	if (itPos == _arr + _size)
 	{
 		push_back(value);
 	}
@@ -318,14 +322,18 @@ inline void Vector<T>::insert(const T* pos, const T& value)
 		T* begin = const_cast<T*>(&value);
 		T* end = begin + 1;
 
-		insert(pos, begin, end);
+		insert(itPos, begin, end);
 	}
 }
 
 template<typename T>
-inline void Vector<T>::insert(const T* pos, T* begin, T* end)
+inline void Vector<T>::insert(const T* itPos, T* srcBegin, T* srcEnd)
 {
-	sizeType newSize = _size + sizeType(end - begin);
+	sizeType insertingSize = sizeType(srcEnd - srcBegin);
+
+	sizeType newSize = _size + insertingSize;
+
+	T* pos = const_cast<T*>(itPos);
 
 	if (newSize > _capacity)
 	{
@@ -333,19 +341,17 @@ inline void Vector<T>::insert(const T* pos, T* begin, T* end)
 		T* newArr = m::allocate<T>(newCap);
 
 		T* dst = newArr;
-		T* oldBegin = this->begin();
-		T* oldEnd = this->end();
-		sizeType diff = sizeType(pos - oldBegin);
 
-		m::moveConstructRange<T>(dst, oldBegin, oldBegin + diff);
-		dst += diff;
 
-		m::copyConstructRange<T>(dst, begin, end);
-		dst += sizeType(end - begin);
+		m::moveConstructRange<T>(dst, _arr, pos);
+		dst += sizeType(pos - _arr);
 
-		m::moveConstructRange<T>(dst, oldBegin + diff, oldEnd);
+		m::copyConstructRange<T>(dst, srcBegin, srcEnd);
+		dst += insertingSize;
 
-		m::destructRange<T>(oldBegin, oldEnd);
+		m::moveConstructRange<T>(dst, pos, _arr + _size);
+
+		m::destructRange<T>(_arr, _arr + _size);
 		m::deallocate<T>(_arr);
 
 		_arr = newArr;
@@ -353,45 +359,42 @@ inline void Vector<T>::insert(const T* pos, T* begin, T* end)
 	}
 	else
 	{
-		sizeType sizeDiff = sizeType(end - begin);
-		T* loc = const_cast<T*>(pos);
-
-
 		// 삽입으로 인해 기존 end 밖으로 밀려나는 애들을, T 생성과 함께 복사(?)
-		m::moveConstructBackward<T>(this->begin() + newSize - 1,
-			this->end() - 1, this->end() - sizeDiff - 1);
+		m::moveConstructBackward<T>(_arr + newSize - 1,
+			_arr + _size - 1, _arr + _size - insertingSize - 1);
 
 		// 삽입으로 인해 뒤로 밀려나지만, end 밖으로 밀려나지는 않는 애들을 복사
-		m::moveBackward<T>(this->end() - 1, this->end() - sizeDiff - 1, loc - 1);
-
-		// 새로 삽입하는 공간에 있던 기존 T들(위에 이미 복사(생성)된 애들)을 삭제
-		m::destructRange<T>(loc, loc + sizeDiff - 1);
+		m::moveBackward<T>(_arr + _size - 1, _arr + _size - insertingSize - 1, pos - 1);
 
 		// 새로 삽입되는 애들을 복사
-		m::copyRange<T>(loc, begin, end);
+		m::copyRange<T>(pos, srcBegin, srcEnd);
 	}
 
 	_size = newSize;
 }
 
 template<typename T>
-inline void Vector<T>::erase(const T* pos)
+inline void Vector<T>::erase(const T* itPos)
 {
-	T* loc = const_cast<T*>(pos);
+	T* pos = const_cast<T*>(itPos);
 
-	m::destruct<T>(loc);
-	m::moveRange<T>(loc, loc + 1, end());
-	
+
+	m::moveRange<T>(pos, pos + 1, _arr + _size);
+	m::destruct<T>(_arr + _size - 1);
+
 	_size--;
 }
 
 template<typename T>
-inline void Vector<T>::erase(const T* begin, const T* end)
+inline void Vector<T>::erase(const T* itBegin, const T* itEnd)
 {
+	T* begin = const_cast<T*>(itBegin);
+	T* end = const_cast<T*>(itEnd);
+
 	m::destructRange<T>(begin, end);
-	m::moveRange<T>(begin, end, this->end());
+	m::moveRange<T>(begin, end, _arr + _size);
 	
-	_size -= (sizeType)(end - begin);
+	_size -= (sizeType)(itEnd - itBegin);
 }
 
 template<typename T>
@@ -401,10 +404,10 @@ inline void Vector<T>::reserve(sizeType capacity)
 
 	T* dst = m::allocate<T>(capacity);
 
-	m::moveConstructRange<T>(dst, begin(), end());
+	m::moveConstructRange<T>(dst, _arr, _arr + _size);
 
-	m::destructRange<T>(begin(), end());
-	m::deallocate<T>(begin());
+	m::destructRange<T>(_arr, _arr + _size);
+	m::deallocate<T>(_arr);
 
 	_arr = dst;
 	_capacity = capacity;
@@ -412,71 +415,71 @@ inline void Vector<T>::reserve(sizeType capacity)
 }
 
 template<typename T>
-inline void Vector<T>::resize(sizeType size)
+inline void Vector<T>::resize(sizeType newSize)
 {
-	if (_size == size) return;
+	if (_size == newSize) return;
 
-	if (size > _size)
+	if (newSize > _size)
 	{
-		if (size > _capacity)
+		if (newSize > _capacity)
 		{
-			sizeType newCap = _capacity * 2 > size ? _capacity * 2 : size;
+			sizeType newCap = _capacity * 2 > newSize ? _capacity * 2 : newSize;
 			T* dst = m::allocate<T>(newCap);
 
-			m::moveConstructRange<T>(dst, begin(), end());
-			m::constructRange<T>(dst + _size, dst + size); // (3) 항인 Args... 를 생략하면, 기본 생성자로 생성
+			m::moveConstructRange<T>(dst, _arr, _arr + _size);
+			m::constructRange<T>(dst + _size, dst + newSize); // (3) 항인 Args... 를 생략하면, 기본 생성자로 생성
 
-			m::destructRange<T>(begin(), end());
-			m::deallocate<T>(begin());
+			m::destructRange<T>(_arr, _arr + _size);
+			m::deallocate<T>(_arr);
 
 			_arr = dst;
 			_capacity = newCap;
 		}
 		else
 		{
-			m::constructRange<T>(end(), begin() + size);
+			m::constructRange<T>(_arr + _size, _arr + newSize);
 		}
 	}
 	else
 	{
-		m::destructRange<T>(begin() + size, end());
+		m::destructRange<T>(_arr + newSize, _arr + _size);
 	}
 
-	_size = size;
+	_size = newSize;
 }
 
 template<typename T>
-inline void Vector<T>::resize(sizeType size, const T& value)
+inline void Vector<T>::resize(sizeType newSize, const T& value)
 {
-	if (size == _size) return;
+	if (newSize == _size) return;
 
-	if (size > _size)
+	if (newSize > _size)
 	{
-		if (size > _capacity)
+		if (newSize > _capacity)
 		{
-			sizeType newCap = _capacity * 2 > size ? _capacity * 2 : size;
+			sizeType newCap = _capacity * 2 > newSize ? _capacity * 2 : newSize;
 			T* dst = m::allocate<T>(newCap);
 
-			m::moveConstructRange<T>(dst, begin(), end());
-			m::constructRange<T>(dst + _size, dst + size, value);
+			m::moveConstructRange<T>(dst, _arr, _arr + _size);
+			m::constructRange<T>(dst + _size, dst + newSize, value);
 
-			m::destructRange<T>(begin(), end());
-			m::deallocate<T>(begin());
+			m::destructRange<T>(_arr, _arr + _size);
+			m::deallocate<T>(_arr);
 
 			_arr = dst;
 			_capacity = newCap;
 		}
 		else
 		{
-			m::constructRange<T>(end(), begin() + size, value);
+			m::constructRange<T>(_arr + _size, _arr + newSize, value);
 		}
 	}
 	else
 	{
-		m::destructRange<T>(begin() + size, end());
+		m::destructRange<T>(_arr + newSize, _arr + _size);
 	}
 
-	_size = size;
+	_size = newSize;
 }
 
 
@@ -507,8 +510,8 @@ inline void Vector<T>::swap(Vector& other)
 template<typename T>
 inline void Vector<T>::clear()
 {
+	m::destructRange<T>(_arr, _arr + _size);
 	_size = 0;
-	m::destructRange<T>(begin(), end());
 }
 
 template<typename T>
@@ -526,10 +529,10 @@ inline void Vector<T>::shrink_to_fit()
 	if (newCap == _capacity) return;
 
 	T* dst = m::allocate<T>(newCap);
-	m::moveConstructRange<T>(dst, begin(), end());
+	m::moveConstructRange<T>(dst, _arr, _arr + _size);
 
-	m::destructRange<T>(begin(), end());
-	m::deallocate<T>(begin());
+	m::destructRange<T>(_arr, _arr + _size);
+	m::deallocate<T>(_arr);
 
 	_arr = dst;
 	_capacity = newCap;
