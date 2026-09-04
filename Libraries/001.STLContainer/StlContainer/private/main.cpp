@@ -2,6 +2,11 @@
 #include "Std.h"
 #include "Vector.h"
 
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 int main()
 {
 	//StdExplain::test();
@@ -17,5 +22,16 @@ int main()
 	{
 		printf("%d, ", vecs[i]);
 	}
+
+
+	vector<int> v;
+	v.push_back(3);
+	v.push_back(1);
+	v.push_back(2);
+	sort(v.begin(), v.end());
+
+	v.begin();
+
+	v.insert(v.begin() + 2, 3);
 }
 

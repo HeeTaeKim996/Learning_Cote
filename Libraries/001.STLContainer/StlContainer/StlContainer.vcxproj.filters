@@ -11,6 +11,9 @@
     <Filter Include="Source Files\containers">
       <UniqueIdentifier>{45f57935-0907-499a-8e19-4c159bc30c8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IteratorTemplate">
+      <UniqueIdentifier>{0bcc4df2-6328-478e-a79a-eb2a7439166a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="public\Temp.h">
@@ -27,6 +30,9 @@
     </ClInclude>
     <ClInclude Include="public\pch.h">
       <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\IteratorTemplate.h">
+      <Filter>Source Files\IteratorTemplate</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

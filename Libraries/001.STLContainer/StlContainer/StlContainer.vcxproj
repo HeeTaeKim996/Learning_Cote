@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="public\IteratorTemplate.h" />
     <ClInclude Include="public\Mem.h" />
     <ClInclude Include="public\pch.h" />
     <ClInclude Include="public\Std.h" />

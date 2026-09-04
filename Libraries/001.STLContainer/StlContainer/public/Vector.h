@@ -5,7 +5,10 @@
 // 참조 원본 깃허브
 // - https://github.com/ross1573/mini_vector
 
-typedef unsigned long sizeType;
+
+
+template<typename T> class Vector_forward_iterator;
+
 
 template<typename T>
 class Vector
@@ -537,3 +540,115 @@ inline void Vector<T>::shrink_to_fit()
 	_arr = dst;
 	_capacity = newCap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	using iterator               = _Vector_iterator<_Scary_val>;
+	using const_iterator         = _Vector_const_iterator<_Scary_val>;
+	using reverse_iterator       = _STD reverse_iterator<iterator>;
+	using const_reverse_iterator = _STD reverse_iterator<const_iterator>;
+
+	이렇게 4개 구현하자
+*/
+
+
+
+
+/*----------------------------------------
+		  Vector_Forward_Iterator
+----------------------------------------*/
+
+template<typename T>
+class Vector_forward_iterator
+{
+public:
+	Vector_forward_iterator(T* ptr) : _ptr(ptr) {}
+
+public:
+	T& operator * () const { return *_ptr; }
+	T& operator ->() const { return _ptr; }
+	Vector_forward_iterator& operator ++ () { ++_ptr; return *this; }
+	Vector_forward_iterator& operator -- () { --_ptr; return *this; }
+	inline Vector_forward_iterator operator + (sizeType n) const 
+	{
+		return Vector_forward_iterator(_ptr + n);
+	}
+	inline Vector_forward_iterator operator - (sizeType n) const
+	{
+		return Vector_forward_iterator(_ptr - n);
+	}
+
+private:
+	T* _ptr;
+};
