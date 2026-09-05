@@ -28,9 +28,6 @@
     <ClInclude Include="public\Vector.h">
       <Filter>Source Files\containers</Filter>
     </ClInclude>
-    <ClInclude Include="public\pch.h">
-      <Filter>Source Files\common</Filter>
-    </ClInclude>
     <ClInclude Include="public\IteratorTemplate.h">
       <Filter>Source Files\IteratorTemplate</Filter>
     </ClInclude>
@@ -53,9 +50,6 @@
     </ClCompile>
     <ClCompile Include="private\Vector.cpp">
       <Filter>Source Files\containers</Filter>
-    </ClCompile>
-    <ClCompile Include="private\pch.cpp">
-      <Filter>Source Files\common</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
