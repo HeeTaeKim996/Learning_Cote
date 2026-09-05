@@ -1,7 +1,8 @@
-﻿  Mem.cpp
+﻿  main.cpp
+C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+  Mem.cpp
+  Priority_queue.cpp
   Vector.cpp
-  main.cpp
-C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   StlContainer.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\out\x64\Debug\StlContainer.exe

@@ -34,6 +34,9 @@
     <ClInclude Include="public\SizeType.h">
       <Filter>Source Files\common</Filter>
     </ClInclude>
+    <ClInclude Include="public\Priority_queue.h">
+      <Filter>Source Files\containers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="private\main.cpp">
@@ -49,6 +52,9 @@
       <Filter>Source Files\common</Filter>
     </ClCompile>
     <ClCompile Include="private\Vector.cpp">
+      <Filter>Source Files\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="private\Priority_queue.cpp">
       <Filter>Source Files\containers</Filter>
     </ClCompile>
   </ItemGroup>

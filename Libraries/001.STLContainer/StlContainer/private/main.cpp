@@ -3,6 +3,9 @@
 #include <vector>
 #include <algorithm>
 
+#include <queue>
+#include <deque>
+
 using namespace std;
 
 int main()
@@ -54,5 +57,7 @@ int main()
 		printf("%d, ", temps[i].i);
 	}
 
+
+	queue<int> q;
 }
 
