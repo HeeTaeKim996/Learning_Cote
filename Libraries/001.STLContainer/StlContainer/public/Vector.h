@@ -7,12 +7,20 @@
 
 
 
-template<typename T> class Vector_forward_iterator;
+
+template<typename T>	class Vector_iterator;
+template<typename T>	class Vector_reverse_iterator;
 
 
 template<typename T>
 class Vector
 {
+public:
+	using iterator = Vector_iterator<T>;
+	using const_iterator = Vector_iterator<const T>;
+	using reverse_iterator = Vector_reverse_iterator<T>;
+	using const_reverse_iterator = Vector_reverse_iterator<const T>;
+
 private:
 	T* _arr;
 	sizeType _size;
@@ -34,11 +42,17 @@ public:
 	T* data()				{ return _arr; }
 	const T* data() const	{ return _arr; }
 
-	T* begin()				{ return _arr; }
-	const T* begin() const	{ return _arr; }
+	iterator begin()				{ return iterator(_arr); }
+	const_iterator begin() const	{ return const_iterator(_arr); }
 
-	T* end()				{ return _arr + _size; }
-	const T* end() const	{ return _arr + _size; }
+	iterator end()				{ return iterator(_arr + _size); }
+	const_iterator end() const	{ return const_iterator(_arr + _size); }
+
+	reverse_iterator rbegin()				{ return reverse_iterator(_arr + _size - 1); }
+	const_reverse_iterator rbegin() const	{ return const_reverse_iterator(_arr + _size - 1); }
+
+	reverse_iterator rend()					{ return reverse_iterator(_arr - 1); }
+	const_reverse_iterator rend() const		{ return const_reverse_iterator(_arr - 1); }
 
 	T& front()				{ return *_arr; }
 	const T& front() const	{ return *_arr; }
@@ -64,8 +78,8 @@ public:
 	template <typename... Args>
 	T& emplace_back(Args&&... args);
 
-	void insert(const T* pos, const T& value);
-	void insert(const T* pos, T* begin, T* end);
+	void insert(const_iterator pos, const T& value);
+	void insert(const_iterator pos, T* begin, T* end);
 
 	void erase(const T* pos);
 	void erase(const T* begin, const T* end);
@@ -314,9 +328,9 @@ inline T& Vector<T>::emplace_back(Args&&... args)
 
 
 template<typename T>
-inline void Vector<T>::insert(const T* itPos, const T& value)
+inline void Vector<T>::insert(const_iterator itPos, const T& value)
 {
-	if (itPos == _arr + _size)
+	if (itPos == end())
 	{
 		push_back(value);
 	}
@@ -330,13 +344,13 @@ inline void Vector<T>::insert(const T* itPos, const T& value)
 }
 
 template<typename T>
-inline void Vector<T>::insert(const T* itPos, T* srcBegin, T* srcEnd)
+inline void Vector<T>::insert(const_iterator itPos, T* srcBegin, T* srcEnd)
 {
 	sizeType insertingSize = sizeType(srcEnd - srcBegin);
 
 	sizeType newSize = _size + insertingSize;
 
-	T* pos = const_cast<T*>(itPos);
+	T* pos = const_cast<T*>(itPos.get());
 
 	if (newSize > _capacity)
 	{
@@ -558,60 +572,9 @@ inline void Vector<T>::shrink_to_fit()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------------------------------------
+				 Iterator
+----------------------------------------*/
 
 /*
 	using iterator               = _Vector_iterator<_Scary_val>;
@@ -619,35 +582,123 @@ inline void Vector<T>::shrink_to_fit()
 	using reverse_iterator       = _STD reverse_iterator<iterator>;
 	using const_reverse_iterator = _STD reverse_iterator<const_iterator>;
 
-	이렇게 4개 구현하자
+	이렇게 stl vector iterator 4개 구현
 */
 
-
-
-
-/*----------------------------------------
-		  Vector_Forward_Iterator
-----------------------------------------*/
-
-template<typename T>
-class Vector_forward_iterator
+template<typename T> // 여기서 T 는 원형 타입(EX. int) 과 const 타입 (EX. const int) 를 모두 받을 수 있다
+class Vector_iterator
 {
+private:
+	// typename 우측에 T등이 없고, Vector_iterator 우측에 <T> 등이 없다.
+	// 이건 모든 Vector_iterator<무언가> 는 다른 모든 Vector_iterator<무언가> 의 firend 이다. 임을 선언
+	template<typename>
+	friend class Vector_iterator;
+
 public:
-	Vector_forward_iterator(T* ptr) : _ptr(ptr) {}
+	Vector_iterator(T* ptr) : _ptr(ptr) {}
+
+
+	// 여기서 U 는 src(원형 타입), 여기서 T는 dst(const 타입)
+	// std::is_convertible_v<U*, T*> 는 U 가 T로 암시 형변환이 가능한지를 검수. 
+	// 예를 들어 U 는 int, T 는 const int 라면, int -> const int 는 암시 형변환이 가능하므로, 형변환 가능
+	// /		U 는 const int, T 는 int 라면, const int -> int 는 암시 형변환이 불가능하므로, 형변환 불가능
+	// 이를 통해 iterator -> const_iterator 의 형변환이 가능해진다
+	// 따라서 아래의 U 는 원형 타입, T 는 const 타입 이라 보면 된다
+	template<
+		typename U,
+		typename = std::enable_if_t<
+		std::is_convertible_v<U*, T*>	
+		>
+	>
+	Vector_iterator(const Vector_iterator<U>& other)
+		: _ptr(other._ptr) // 여기(const 타입)서 other._ptr(원형 타입의 _ptr)에 접근할 수 있는 이유는, 위에 선언한 firend class Vector_iterator 부분 때문.
+	{}
 
 public:
 	T& operator * () const { return *_ptr; }
-	T& operator ->() const { return _ptr; }
-	Vector_forward_iterator& operator ++ () { ++_ptr; return *this; }
-	Vector_forward_iterator& operator -- () { --_ptr; return *this; }
-	inline Vector_forward_iterator operator + (sizeType n) const 
+	T* operator ->() const { return _ptr; }
+	Vector_iterator& operator ++ () { ++_ptr; return *this; } // 전위 연산자
+	inline Vector_iterator operator ++(int) // 후위 연산자
 	{
-		return Vector_forward_iterator(_ptr + n);
+		Vector_iterator temp = *this;
+		++_ptr; 
+		return temp;
 	}
-	inline Vector_forward_iterator operator - (sizeType n) const
+	
+	Vector_iterator& operator -- () { --_ptr; return *this; }
+	inline Vector_iterator operator --(int)
 	{
-		return Vector_forward_iterator(_ptr - n);
+		Vector_iterator temp = *this;
+		--_ptr;
+		return temp;
 	}
+
+
+	Vector_iterator operator + (sizeType n) const { return Vector_iterator(_ptr + n);}
+	Vector_iterator operator - (sizeType n) const { return Vector_iterator(_ptr - n); }
+
+	template<typename U>
+	bool operator == (const Vector_iterator<U>& other) const { return _ptr == other._ptr; }
+	template<typename U>
+	bool operator != (const Vector_iterator<U>& other) const{ return _ptr != other._ptr; }
+
+	T* get() const { return _ptr; }
+
+private:
+	T* _ptr;
+};
+
+
+
+
+
+
+template<typename T>
+class Vector_reverse_iterator
+{
+private:
+	template<typename>
+	friend class Vector_reverse_iterator;
+
+public:
+	Vector_reverse_iterator(T* ptr) : _ptr(ptr) {}
+
+	template<
+		typename U,
+		typename = std::enable_if_t<
+		std::is_convertible_v<U*, T*>
+		>
+	>
+	Vector_reverse_iterator(const Vector_reverse_iterator<U>& other) : _ptr(other._ptr) {}
+
+public:
+	T& operator * () const { return *_ptr; }
+	T* operator ->() const { return _ptr; }
+	Vector_reverse_iterator& operator ++ () { --_ptr; return *this; }
+	inline Vector_reverse_iterator operator ++(int)
+	{
+		Vector_reverse_iterator temp = *this;
+		--_ptr;
+		return temp;
+	}
+
+	Vector_reverse_iterator& operator -- () { ++_ptr; return *this; }
+	inline Vector_reverse_iterator operator --(int)
+	{
+		Vector_reverse_iterator temp = *this;
+		++_ptr;
+		return temp;
+	}
+
+	Vector_reverse_iterator operator + (sizeType n) const { return Vector_reverse_iterator(_ptr - n); }
+	Vector_reverse_iterator operator - (sizeType n) const { return Vector_reverse_iterator(_ptr + n); }
+	
+	template<typename U>
+	bool operator == (const Vector_reverse_iterator<U>& other) const { return _ptr == other._ptr; }
+	template<typename U>
+	bool operator != (const Vector_reverse_iterator<U>& other) const { return _ptr != other._ptr; }
+
+	T* get() const { return _ptr; }
 
 private:
 	T* _ptr;

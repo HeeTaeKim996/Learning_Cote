@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|solutionrelative:StlContainer\\private\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\public\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|solutionrelative:StlContainer\\public\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\Vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|solutionrelative:StlContainer\\private\\Vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|solutionrelative:StlContainer\\private\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{242128BD-054B-4E7F-BAF6-20063DBAE9FC}|StlContainer\\StlContainer.vcxproj|C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\public\\Mem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -57,12 +57,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 220,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 204,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IteratorTemplate.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\public\\IteratorTemplate.h",
               "RelativeDocumentMoniker": "StlContainer\\public\\IteratorTemplate.h",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "StlContainer\\public\\IteratorTemplate.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-09-04T09:35:48.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:35:48.739Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "StlContainer\\public\\Temp.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-09-03T07:56:34.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:56:34.618Z"
             },
             {
               "$type": "Document",
@@ -96,18 +94,17 @@
               "RelativeToolTip": "StlContainer\\public\\Temp.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-09-03T07:56:41.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:56:41.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\main.cpp",
               "RelativeDocumentMoniker": "StlContainer\\private\\main.cpp",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\main.cpp",
               "RelativeToolTip": "StlContainer\\private\\main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-03T07:39:32.775Z",
               "EditorCaption": ""
@@ -139,18 +136,18 @@
           ]
         },
         {
-          "DockedWidth": 252,
+          "DockedWidth": 268,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Vector.h",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\public\\Vector.h",
               "RelativeDocumentMoniker": "StlContainer\\public\\Vector.h",
               "ToolTip": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\public\\Vector.h",
               "RelativeToolTip": "StlContainer\\public\\Vector.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAMgCAAAAAAAAAAAAANYCAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-09-03T12:57:45.866Z",
               "EditorCaption": ""
@@ -165,8 +162,7 @@
               "RelativeToolTip": "StlContainer\\public\\Mem.h",
               "ViewState": "AgIAAFMAAAAAAAAAAAAqwHAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-09-03T07:45:04.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:45:04.314Z"
             },
             {
               "$type": "Document",
@@ -194,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Vector.cpp",
               "DocumentMoniker": "C:\\Users\\ttiig\\source\\repos\\LOGIC\\Libraries\\001.STLContainer\\StlContainer\\private\\Vector.cpp",
               "RelativeDocumentMoniker": "StlContainer\\private\\Vector.cpp",
@@ -202,8 +198,7 @@
               "RelativeToolTip": "StlContainer\\private\\Vector.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-03T07:44:50.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:44:50.351Z"
             },
             {
               "$type": "Document",

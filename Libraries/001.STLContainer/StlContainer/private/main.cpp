@@ -18,11 +18,20 @@ int main()
 
 	vecs.insert(vecs.begin() + 1, 9);
 
-	for (int i = 0; i < vecs.size(); i++)
+	for (int i = 0; i < vecs.size(); ++i)
 	{
 		printf("%d, ", vecs[i]);
 	}
-
+	printf("\n");
+	for (auto it = vecs.begin(); it != vecs.end(); ++it)
+	{
+		printf("%d, ", *it);
+	}
+	printf("\nReverse: \n");
+	for (auto it = vecs.rbegin(); it != vecs.rend(); ++it)
+	{
+		printf("%d, ", *it);
+	}
 
 	vector<int> v;
 	v.push_back(3);
