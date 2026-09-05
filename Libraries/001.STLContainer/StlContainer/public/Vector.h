@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Std.h"
+#include "Mem.h"
+#include "SizeType.h"
 
 // 참조 원본 깃허브
 // - https://github.com/ross1573/mini_vector
@@ -30,14 +32,18 @@ private:
 
 public:
 	Vector();
-	explicit Vector(sizeType const size); // ※ explicit : 생성자에서의 암시적 형변환을 방지. (EX. explicit 이 없을시, Vector vec(10); 은 Vector vec = 10; 로 대체될 수 있음
+	explicit Vector(const sizeType size); // ※ explicit : 생성자에서의 암시적 형변환을 방지. (EX. explicit 이 없을시, Vector vec(10); 은 Vector vec = 10; 로 대체될 수 있음
 	Vector(const Vector& other);
 	Vector(Vector&& other);
+	Vector(const sizeType size, const T& value);
+
+
 	~Vector();
 
 public:
 	sizeType size() const noexcept { return _size; }
 	sizeType capacity() const noexcept { return _capacity; }
+	bool empty() const noexcept { return _size == 0; }
 
 	T* data()				{ return _arr; }
 	const T* data() const	{ return _arr; }
@@ -66,6 +72,8 @@ public:
 	T& operator[](sizeType index)				{ return _arr[index]; }
 	const T& operator[](sizeType index) const { return _arr[index]; }
 
+
+
 	Vector& operator = (const Vector& other);
 	Vector& operator = (Vector&& other);
 
@@ -78,8 +86,10 @@ public:
 	template <typename... Args>
 	T& emplace_back(Args&&... args);
 
-	void insert(const_iterator pos, const T& value);
-	void insert(const_iterator pos, T* begin, T* end);
+	void insert(const_iterator itPos, const T& value);
+	void insert(const_iterator itPos, T* begin, T* end);
+	template <typename... Args>
+	T& emplace(const_iterator itPos, Args&&... args);
 
 	void erase(const T* pos);
 	void erase(const T* begin, const T* end);
@@ -106,7 +116,7 @@ inline Vector<T>::Vector() : Vector(0)
 }
 
 template<typename T>
-inline Vector<T>::Vector(sizeType const size)
+inline Vector<T>::Vector(const sizeType size)
 	: _arr(m::allocate<T>(size)), _size(size), _capacity(size)
 {
 }
@@ -130,6 +140,16 @@ inline Vector<T>::Vector(Vector&& other)
 	other._capacity = 0;
 	other._arr = nullptr;
 }
+
+template<typename T>
+inline Vector<T>::Vector(sizeType size, const T& value)
+	: _arr(m::allocate<T>(size)), _size(size), _capacity(size)
+{
+	m::constructRange<T>(_arr, _arr + _size, value);
+}
+
+
+
 
 template<typename T>
 inline Vector<T>::~Vector()
@@ -288,7 +308,7 @@ inline T& Vector<T>::emplace_back(Args&&... args)
 {
 	if (_size < _capacity)
 	{
-		m::construct<T>(_arr + _size++, Std::forward<Args>(args)...);
+		m::construct<T>(_arr + _size, Std::forward<Args>(args)...);
 	}
 	else
 	{
@@ -305,11 +325,12 @@ inline T& Vector<T>::emplace_back(Args&&... args)
 
 		_arr = newArr;
 		_capacity = newCap;
-		++_size;
 	}
+	++_size;
 
 	return back(); // emplace_back 은 T의 생성자 인자를 받아 T를 생성하고 삽입한 후, T를 리턴
 }
+
 
 
 
@@ -389,6 +410,68 @@ inline void Vector<T>::insert(const_iterator itPos, T* srcBegin, T* srcEnd)
 
 	_size = newSize;
 }
+
+template<typename T>
+template<typename ...Args>
+inline T& Vector<T>::emplace(const_iterator itPos, Args && ...args)
+{
+	if (itPos == end())
+	{
+		return emplace_back(Std::forward<Args>(args)...);
+	}
+	else
+	{
+		T* pos = const_cast<T*>(itPos.get());
+
+		if (_size < _capacity)
+		{
+			m::construct<T>(_arr + _size, static_cast<T&&>(*(_arr + _size - 1)));
+			m::moveBackward<T>(_arr + _size - 1, _arr + _size - 2, pos - 1);
+			
+			m::destruct<T>(pos);
+			m::construct<T>(pos, Std::forward<Args>(args)...);
+		}
+		else
+		{
+			sizeType newCap = _capacity == 0 ? 1 : _capacity * 2;
+			T* newArr = m::allocate<T>(newCap);
+			T* dst = newArr + _size;
+			T* newPos = newArr + (pos - _arr);
+
+			m::moveConstructBackward<T>(dst, _arr + _size - 1, pos - 1);
+			dst -= sizeType(_arr + _size - pos);
+
+			m::construct<T>(newPos, Std::forward<Args>(args)...);
+			dst -= 1;
+
+			m::moveConstructBackward<T>(dst, pos - 1, _arr - 1);
+
+			m::destructRange<T>(_arr, _arr + _size);
+			m::deallocate<T>(_arr);
+
+			_arr = newArr;
+			_capacity = newCap;
+			pos = newPos;
+		}
+		++_size;
+
+		return *pos;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 template<typename T>
 inline void Vector<T>::erase(const T* itPos)

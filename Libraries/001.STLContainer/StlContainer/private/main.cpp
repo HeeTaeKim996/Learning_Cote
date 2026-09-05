@@ -1,5 +1,4 @@
 #include "pch.h"
-#include "Std.h"
 #include "Vector.h"
 
 #include <vector>
@@ -18,6 +17,7 @@ int main()
 
 	vecs.insert(vecs.begin() + 1, 9);
 
+
 	for (int i = 0; i < vecs.size(); ++i)
 	{
 		printf("%d, ", vecs[i]);
@@ -33,14 +33,27 @@ int main()
 		printf("%d, ", *it);
 	}
 
-	vector<int> v;
-	v.push_back(3);
-	v.push_back(1);
-	v.push_back(2);
-	sort(v.begin(), v.end());
+	struct Temp
+	{
+		Temp(int inI, int inJ) : i(inI), j(inJ) {}
+		Temp() {}
+		int i;
+		int j = 0;
+	};
 
-	v.begin();
+	printf("\n\nTemps : \n");
+	Vector<Temp> temps;
+	temps.push_back(Temp(1, 0));
+	temps.push_back(Temp(2, 0));
+	temps.push_back(Temp(3, 0));
+	
+	temps.insert(temps.begin() +1, Temp(9, 0));
+	temps.emplace(temps.begin() + 1, 7, 0);
 
-	v.insert(v.begin() + 2, 3);
+	for (int i = 0; i < temps.size(); ++i)
+	{
+		printf("%d, ", temps[i].i);
+	}
+
 }
 

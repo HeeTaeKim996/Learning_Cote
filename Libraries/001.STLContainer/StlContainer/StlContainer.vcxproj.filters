@@ -34,6 +34,9 @@
     <ClInclude Include="public\IteratorTemplate.h">
       <Filter>Source Files\IteratorTemplate</Filter>
     </ClInclude>
+    <ClInclude Include="public\SizeType.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="private\main.cpp">

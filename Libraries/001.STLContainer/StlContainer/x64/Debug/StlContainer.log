@@ -1,8 +1,10 @@
 ﻿  main.cpp
 C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
-  (compiling source file '/private/main.cpp')
-  
-C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(42,3): warning C4834: discarding return value of function with [[nodiscard]] attribute
-  (compiling source file '/private/main.cpp')
-  
-  StlContainer.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\x64\Debug\StlContainer.exe
+C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\private\main.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+  Mem.cpp
+  pch.cpp
+  Std.cpp
+  Temp.cpp
+  Vector.cpp
+  Generating Code...
+  StlContainer.vcxproj -> C:\Users\ttiig\source\repos\LOGIC\Libraries\001.STLContainer\StlContainer\out\x64\Debug\StlContainer.exe
