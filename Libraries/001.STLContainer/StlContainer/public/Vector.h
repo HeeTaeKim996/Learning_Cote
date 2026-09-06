@@ -239,7 +239,7 @@ inline void Vector<T>::push_back(const T& value)
 {
 	if (_size < _capacity)
 	{
-		m::construct<T>(_arr + _size++, value); // T 가 생성자로 const T& 를 받는다는 전제
+		m::construct<T>(_arr + _size, value); // T 가 생성자로 const T& 를 받는다는 전제
 	}
 	else
 	{
@@ -257,8 +257,9 @@ inline void Vector<T>::push_back(const T& value)
 
 		_arr = newArr;
 		_capacity = newCap;
-		_size++;
 	}
+
+	_size++;
 }
 
 

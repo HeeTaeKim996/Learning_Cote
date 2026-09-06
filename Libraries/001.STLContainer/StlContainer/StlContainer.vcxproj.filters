@@ -16,9 +16,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="public\Temp.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="public\Mem.h">
       <Filter>Source Files\common</Filter>
     </ClInclude>
@@ -40,9 +37,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="private\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="private\Temp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="private\Mem.cpp">

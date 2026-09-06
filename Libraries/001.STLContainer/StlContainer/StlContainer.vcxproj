@@ -24,7 +24,6 @@
     <ClInclude Include="public\Priority_queue.h" />
     <ClInclude Include="public\SizeType.h" />
     <ClInclude Include="public\Std.h" />
-    <ClInclude Include="public\Temp.h" />
     <ClInclude Include="public\Vector.h" />
   </ItemGroup>
   <ItemGroup>
@@ -32,7 +31,6 @@
     <ClCompile Include="private\Mem.cpp" />
     <ClCompile Include="private\Priority_queue.cpp" />
     <ClCompile Include="private\Std.cpp" />
-    <ClCompile Include="private\Temp.cpp" />
     <ClCompile Include="private\Vector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
