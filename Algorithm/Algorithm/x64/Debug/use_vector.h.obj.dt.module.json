@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\use_vector.obj",
+            "outputs": [
+                "x64\\Debug\\use_vector.h.obj.dt.module.json",
+                "x64\\Debug\\use_vector.h.obj.dt.d.json",
+                "x64\\Debug\\Algorithm.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -2,6 +2,7 @@
 #include "3.2.Trie.h"
 #include <functional>
 
+
 void Trie::test()
 {
 	TrieNode<int> root;

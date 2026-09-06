@@ -17,6 +17,12 @@
     <Filter Include="Source Files\003.StringMatch">
       <UniqueIdentifier>{35f58b4e-3be3-4cff-a2ae-7cbfa09b461f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LibraryConfig">
+      <UniqueIdentifier>{3c9aa6f1-cd10-4d95-8746-fafe32376318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryConfig\001.STLContainer">
+      <UniqueIdentifier>{27879a7d-47b4-4cf0-8070-b94397fce464}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,6 +71,15 @@
     </ClInclude>
     <ClInclude Include="3.2.Trie.h">
       <Filter>Source Files\003.StringMatch</Filter>
+    </ClInclude>
+    <ClInclude Include="use_vector.h">
+      <Filter>Source Files\LibraryConfig\001.STLContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="001.STLContainer_AllSet.h">
+      <Filter>Source Files\LibraryConfig\001.STLContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="use_priority_queue.h">
+      <Filter>Source Files\LibraryConfig\001.STLContainer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
